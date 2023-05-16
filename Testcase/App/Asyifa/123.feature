@@ -1,1 +1,0 @@
-Scenario : "Check the Product Purchase as a Buyer Functionality"
