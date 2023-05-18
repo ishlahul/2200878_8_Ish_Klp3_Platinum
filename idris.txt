@@ -1,0 +1,24 @@
+Login Wordpress
+    Input textbox email or username
+        - id="usernameOrEmail"
+        - name="usernameOrEmail"
+        - class="form-text-input"
+    Hyperlink Persyaratan Layanan 
+        - href="https://wordpress.com/id/tos/"
+    Hyperlink Kebijakan Privasi 
+        - href="https://automattic.com/privacy/"
+    Button Lanjutkan
+        - class="button form-button is-primary"
+    Button Lanjutkan dengan Google
+        - class="social-buttons__button button"
+        - class="social-icons social-icons__google social-icons--enabled"
+        - class="social-buttons__service-name"
+    Button Lanjutkan dengan Apple
+        - class="social-buttons__button button"
+        - class="social-icons social-icons__apple social-icons--enabled"
+        - class="social-buttons__service-name"
+    Button Buat Akun Baru
+        - href="/start?user_email="
+    Button Kirimkan tautan login melalui email
+        - href="/log-in/link/id"
+
