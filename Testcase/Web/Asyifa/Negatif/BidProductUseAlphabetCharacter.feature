@@ -6,7 +6,7 @@ Feature: Check the Product Purchase as a Buyer Functionality
         
     #Example
     @scenariooutline
-    Scenario Outline : User wants to make a bid product use numeric character
+    Scenario Outline : User wants to make a bid product use alphabet character
     Given User successful login
     When click button "Saya tertarik dan ingin nego"
     And User input bergain price use alphabet character
