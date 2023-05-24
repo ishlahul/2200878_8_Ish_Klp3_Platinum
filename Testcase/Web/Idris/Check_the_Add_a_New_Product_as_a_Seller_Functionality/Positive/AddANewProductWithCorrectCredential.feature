@@ -1,6 +1,6 @@
 Feature: Check the Product Purchase as a Buyer Functionality
 
-Background: Access Product Page
+Background: Access Product Info Page
     Given user login the web https://secondhand-store.herokuapp.com/
         And user click on sell button "button[class='btn btn-color-theme pl-3 pr-3 button-jual']"
     
