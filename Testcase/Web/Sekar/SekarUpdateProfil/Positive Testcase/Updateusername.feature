@@ -8,7 +8,7 @@ And klik icon Profile
 Scenario Outline: User memperbarui nama profil
 
 When user mengubah nama menggunakan "<nama>"
-And user klik button "Terbitkan"
+And user klik button "Submit"
 Then user mendapatkan pesan "Nama profil berhasil diperbaharui"
 And nama profil terbaru muncul di halaman profil
 

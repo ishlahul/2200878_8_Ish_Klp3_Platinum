@@ -9,6 +9,6 @@ Scenario Outline: User memperbarui kota domisili
 
 When user klik kolom kota
 And user memilih kota domisili
-And user klik "Terbitkan"
+And user klik "Submit"
 Then user mendapatkan pesan "Nama kota berhasil diperbaharui"
 And nama kota terbaru muncul di halaman profil
