@@ -1,2 +1,1 @@
-Masukkan File pada tiap folder yang disediakan
-Pastikan sebelum push untuk pull terlebih dahulu
+Spreadsheet: https://docs.google.com/spreadsheets/d/1MBgwzwTzekk_mAuEnRgOGRHTMQw-ewnEouegK1CCY1A/edit?usp=sharing
