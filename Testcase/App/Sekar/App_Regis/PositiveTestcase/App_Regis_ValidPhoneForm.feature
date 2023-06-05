@@ -17,6 +17,6 @@ Feature: App User Registration
 
         Examples:
             | nama | email | password | nomor | kota | alamat | pesan |
-            | james | maxima2@yopmail.com | violet123 | 08122244 | yogyakarta | jalan baru | Silahkan verifikasi email agar dapat menggunakan layanan kami |
+            | james | maxima2@yopmail.com | violet123 | 08122244556 | yogyakarta | jalan baru | Silahkan verifikasi email agar dapat menggunakan layanan kami |
             | james | maxima3@yopmail.com | violet123 | 0812222445567 | yogyakarta | jalan baru | Silahkan verifikasi email agar dapat menggunakan layanan kami |
             | james | maxima4@yopmail.com | violet123 | 0812224455 | yogyakarta | jalan baru | Silahkan verifikasi email agar dapat menggunakan layanan kami |
