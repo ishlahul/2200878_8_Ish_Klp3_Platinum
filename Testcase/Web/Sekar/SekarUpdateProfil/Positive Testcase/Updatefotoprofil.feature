@@ -5,7 +5,7 @@ Background: User login dengan email terdaftar
 Given : User akses homepage
 And klik icon Profile
 
-Scenario Outline: User memperbarui foto profil
+Scenario: User memperbarui foto profil
 
 When user klik button foto profil
 And user memilih file foto dengan "<format>"

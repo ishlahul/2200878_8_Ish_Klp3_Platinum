@@ -5,7 +5,7 @@ Background: User login dengan email terdaftar
 Given : User akses homepage
 And klik icon Profile
 
-Scenario Outline: User memperbarui nomor kontak
+Scenario: User memperbarui nomor kontak
 
 When user mengubah nomor kontak dengan format "<format>"
 And user klik "Submit"

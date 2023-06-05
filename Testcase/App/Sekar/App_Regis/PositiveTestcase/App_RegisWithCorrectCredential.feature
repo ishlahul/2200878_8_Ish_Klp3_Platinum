@@ -4,7 +4,7 @@ Background: User akses app homepage
 Given : User klik "Akun"
 And klik "Daftar"
 
-Scenario Outline: User register akun dengan valid credential
+Scenario: User register akun dengan valid credential
 
 When user mengisi field Nama dengan "Mingyu"
 And user mengisi email dengan "rockwithyou@yopmail.com"

@@ -5,7 +5,7 @@ Background: User login dengan email terdaftar
 Given : User akses homepage
 And klik icon Profile
 
-Scenario Outline: User memperbarui nama profil
+Scenario: User memperbarui nama profil
 
 When user mengubah nama menggunakan "<nama>"
 And user klik button "Submit"

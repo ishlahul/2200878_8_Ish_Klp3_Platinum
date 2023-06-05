@@ -5,7 +5,7 @@ Background: User login dengan email terdaftar
 Given : User akses homepage
 And klik icon Profile
 
-Scenario Outline: User memperbarui kota domisili
+Scenario: User memperbarui kota domisili
 
 When user klik kolom kota
 And user memilih kota domisili
