@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_Banner_left</name>
+   <tag></tag>
+   <elementGuidId>b234979f-66be-4756-870e-158a292af396</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/section/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.promo.left.bg-success.rounded-end.flex-grow-1.align-self-center.d-none.d-lg-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9e67d18e-bc53-45f9-b3bc-79ed17451dfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>promo left bg-success rounded-end flex-grow-1 align-self-center d-none d-lg-block</value>
+      <webElementGuid>d3f87259-8cdb-4adf-9b9c-0db6568e6f98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;mt-lg-5 mb-5 w-100 d-flex gap-lg-5&quot;]/div[@class=&quot;promo left bg-success rounded-end flex-grow-1 align-self-center d-none d-lg-block&quot;]</value>
+      <webElementGuid>2ed8ada5-3205-435c-b1a3-5d8e90541300</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/section/div</value>
+      <webElementGuid>f7e25a63-6b17-44c2-b1c2-70d551c92c0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
