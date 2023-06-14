@@ -22,11 +22,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features = "Include/features/Login.feature",
-	glue = "stepDefinition",
-	tags = "@31",
-	monochrome = true//,
-	//plugin = "html:Reports/Cucumber"
+features = "Include/features/Login.feature",
+glue = "stepDefinition",
+tags = "@31",
+monochrome = true//,
+//plugin = "html:Reports/Cucumber"
 )
 
 public class Runner {
