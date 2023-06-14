@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Product Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68b2381f-9843-4632-b1d1-ef23c9d2da48</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a28bc606-4a0e-4cb9-8236-a85ac6903143</id>
+      <masked>false</masked>
+      <name>productbidprice</name>
+   </variable>
+</TestCaseEntity>

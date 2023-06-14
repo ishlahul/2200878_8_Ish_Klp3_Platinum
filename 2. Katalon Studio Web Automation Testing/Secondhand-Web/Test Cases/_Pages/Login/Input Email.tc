@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To clear and input email textfield</description>
+   <name>Input Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da424866-89ff-4c18-b915-a343d20b2b07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33e55b71-a4ca-4702-b01d-68b361ffac39</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33e55b71-a4ca-4702-b01d-68b361ffac39</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

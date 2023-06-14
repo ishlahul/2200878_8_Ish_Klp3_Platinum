@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_Seller</name>
+   <tag></tag>
+   <elementGuidId>908e79d5-481f-4e73-9291-61202b21c43b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7fd146d6b1942821e3c03a54694c932326d3c426/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLUUFXa0NrQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--68ce5b37660f0527e00bd1e60af75a7b48156984/40904-asus-rog-strix-scar-15-g533z.jpg')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.py-2.px-4.rounded-4.shadow.border-0.mt-5 > div.d-flex.align-items-center > img.img-avatar.w-100.rounded-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>5cdea244-6047-4bd9-acf0-830c7e20ef05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-avatar w-100 rounded-4</value>
+      <webElementGuid>4f4c23fc-f62a-4d16-9090-c8975277c99b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7fd146d6b1942821e3c03a54694c932326d3c426/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLUUFXa0NrQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--68ce5b37660f0527e00bd1e60af75a7b48156984/40904-asus-rog-strix-scar-15-g533z.jpg</value>
+      <webElementGuid>b2a183e1-bb3b-492b-9b4a-af95fe85f99d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card py-2 px-4 rounded-4 shadow border-0 mt-5&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/img[@class=&quot;img-avatar w-100 rounded-4&quot;]</value>
+      <webElementGuid>58626835-b7d0-4df3-919a-0b7dca6eb2de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7fd146d6b1942821e3c03a54694c932326d3c426/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLUUFXa0NrQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--68ce5b37660f0527e00bd1e60af75a7b48156984/40904-asus-rog-strix-scar-15-g533z.jpg')]</value>
+      <webElementGuid>a66f711d-637d-4c1c-b26a-03f9ca68f1f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/img</value>
+      <webElementGuid>213aab3a-e055-4626-be5f-3e135de8fd5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7fd146d6b1942821e3c03a54694c932326d3c426/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLUUFXa0NrQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--68ce5b37660f0527e00bd1e60af75a7b48156984/40904-asus-rog-strix-scar-15-g533z.jpg']</value>
+      <webElementGuid>9628df9d-a9e0-4610-b2c4-3de388a267e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

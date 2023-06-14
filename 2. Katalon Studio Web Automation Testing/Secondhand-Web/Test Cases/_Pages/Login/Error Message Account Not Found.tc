@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To read error message</description>
+   <name>Error Message Account Not Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bcdb845-6a6b-4bd8-a8bd-82ee3a5bf073</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fb30699-bef5-4c3c-bd8e-7ba4a9ceefc0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3a53f9d-8f04-46d4-a194-f2fe93229005</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0fb30699-bef5-4c3c-bd8e-7ba4a9ceefc0</id>
+      <masked>false</masked>
+      <name>errortext_l1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3a53f9d-8f04-46d4-a194-f2fe93229005</id>
+      <masked>false</masked>
+      <name>expected1</name>
+   </variable>
+</TestCaseEntity>

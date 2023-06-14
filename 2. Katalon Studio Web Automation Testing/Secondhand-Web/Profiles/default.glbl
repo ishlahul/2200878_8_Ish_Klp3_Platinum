@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://secondhand-store.herokuapp.com/'</initValue>
+      <name>weburl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'idrismadyasto@gmail.com'</initValue>
+      <name>loginemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'binar1234'</initValue>
+      <name>loginpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid@example.com'</initValue>
+      <name>invalidemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalidpass'</initValue>
+      <name>invalidpassword</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
