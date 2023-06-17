@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "18AFAB6313807F3134C0C5341BBFFE94",
+=======
+  "keywordFileContentHash": "F4BDE7F1C7F48BA47A52F84C4B675D90",
+>>>>>>> 301ce2e3ac6a4f0baa131382cfdcc46321108cad
   "keywordClasses": [
     {
       "name": "Hook",
