@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc03 - User want to register with pass 30 char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b06aa59c-3468-45e8-9f42-4bc62a73b0a9</testCaseGuid>
+</TestCaseEntity>
