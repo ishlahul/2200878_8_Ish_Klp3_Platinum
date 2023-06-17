@@ -88,10 +88,10 @@ class LoginWithIncorrectCredential {
 	@Then("user should see popup (.*)")
 	def verifyError(String message) {
 		println("n/ I am inside verifyError")
-		
+
 		if (message == 'Invalid Email or password.') {
-		WebUI.callTestCase(findTestCase('Pages/Login/Error Message'), [('errortext') : '', ('expected') : message],
-		FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Login/Error Message'), [('errortext') : '', ('expected') : message],
+			FailureHandling.STOP_ON_FAILURE)
 		}
 		else if (message == 'Required Email') {
 			WebUI.callTestCase(findTestCase('Pages/Login/Textfield Email Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -99,7 +99,7 @@ class LoginWithIncorrectCredential {
 		else if (message == 'Required Password') {
 			WebUI.callTestCase(findTestCase('Pages/Login/Textfield Password Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
-		
+
 		WebUI.closeBrowser()
 	}
 }
