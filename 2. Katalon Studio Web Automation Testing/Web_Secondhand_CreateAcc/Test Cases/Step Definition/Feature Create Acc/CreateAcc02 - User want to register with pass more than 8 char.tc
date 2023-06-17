@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc02 - User want to register with pass more than 8 char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f777644c-fd06-4098-8eab-8085f3cdaa7f</testCaseGuid>
+</TestCaseEntity>

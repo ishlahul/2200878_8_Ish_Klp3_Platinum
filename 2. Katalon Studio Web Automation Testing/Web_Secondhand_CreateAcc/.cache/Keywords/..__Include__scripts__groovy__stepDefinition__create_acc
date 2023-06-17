@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F66D9693C34438E6030877C71117D1BE",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.create_acc",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

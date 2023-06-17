@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Lengkapi Info Akun_img-thumbnail img-avatar-profile rounded-4 p-0 border-0 overflow-hidden</name>
+   <tag></tag>
+   <elementGuidId>82f754e3-e17d-4ec3-a5de-81a81d7f1646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='form-avatar-image']/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-thumbnail.img-avatar-profile.rounded-4.p-0.border-0.overflow-hidden</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>fccfa24f-02a4-426f-b9fe-dcabd42951d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-thumbnail img-avatar-profile rounded-4 p-0 border-0 overflow-hidden</value>
+      <webElementGuid>6cf426f8-3d16-4cb2-bf22-489cd82f33a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFpMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0770a4283da350ee4e1afd1444e4036f6ecca5eb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ2tBRnBBcEFCIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--dad1ea9fd9c33e8a8e0e49b4c08b1d130563e04b/karina.jpeg</value>
+      <webElementGuid>4c85b8fa-f95e-41c0-bddc-1b6c0da1213a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-avatar-image&quot;)/img[@class=&quot;img-thumbnail img-avatar-profile rounded-4 p-0 border-0 overflow-hidden&quot;]</value>
+      <webElementGuid>f7cc42e6-acc9-4614-88de-36e035c4602a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form-avatar-image']/img</value>
+      <webElementGuid>00becf70-03e1-4d68-8766-809300a16fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFpMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0770a4283da350ee4e1afd1444e4036f6ecca5eb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ2tBRnBBcEFCIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--dad1ea9fd9c33e8a8e0e49b4c08b1d130563e04b/karina.jpeg')]</value>
+      <webElementGuid>3bbcca53-79b0-423e-9604-92a54d27f396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>4ba8d8ec-043b-4062-9eec-55562390e6b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://secondhand.binaracademy.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFpMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0770a4283da350ee4e1afd1444e4036f6ecca5eb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ2tBRnBBcEFCIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--dad1ea9fd9c33e8a8e0e49b4c08b1d130563e04b/karina.jpeg']</value>
+      <webElementGuid>23248a27-3385-42e3-a886-ed6aa3c8d89e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
