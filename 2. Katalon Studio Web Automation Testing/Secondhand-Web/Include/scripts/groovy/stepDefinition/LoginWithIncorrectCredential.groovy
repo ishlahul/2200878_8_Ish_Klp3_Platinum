@@ -18,6 +18,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import ch.qos.logback.core.joran.conditional.ElseAction
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -42,45 +43,63 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-class login {
-	@Then("User input registered email {string}")
-	public void user_input_registered_email(String email) {
+
+
+class LoginWithIncorrectCredential {
+	@Given("user open the web SecondHand")
+	def navigateToHomePage() {
+		println("/n I am inside navigateToHomePage")
+
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
+	}
+
+	@And("user click on login button at Home Page")
+	def clickLoginAtHomepage() {
+		println("/n I am inside clickLoginAtHomepage")
+
+		WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Login Home Page'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("user fill in email text field with invalid (.*)")
+	def enterInvalidEmail(String email) {
+		println("/n I am inside enterInvalidEmail")
+		println("Email : "+email)
+
 		WebUI.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input registered password {string}")
-	public void user_input_registered_password(String password) {
+	@And("user fill in password text field with invalid (.*)")
+	def enterInvalidPassword(String password) {
+		println("n/ I am inside enterInvalidPassword")
+		println("Password : "+password)
+
 		WebUI.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User click on Login button")
-	public void user_click_on_Login_button() {
+	@And("user click on login button at Login Page")
+	def clickLogin() {
+		println("n/ I am inside clickLogin")
+
 		WebUI.callTestCase(findTestCase('Pages/Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input incorrect email {string}")
-	public void user_input_incorrect_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-	}
+	@Then("user should see popup (.*)")
+	def verifyError(String message) {
+		println("n/ I am inside verifyError")
 
-	@Then("User input incorrect password {string}")
-	public void user_input_incorrect_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
-	}
+		if (message == 'Invalid Email or password.') {
+			WebUI.callTestCase(findTestCase('Pages/Login/Error Message'), [('errortext') : '', ('expected') : message],
+			FailureHandling.STOP_ON_FAILURE)
+		}
+		else if (message == 'Required Email') {
+			WebUI.callTestCase(findTestCase('Pages/Login/Textfield Email Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+		}
+		else if (message == 'Required Password') {
+			WebUI.callTestCase(findTestCase('Pages/Login/Textfield Password Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+		}
 
-	/*
-	 @Then("User redirected to Home Page after login")
-	 public void user_redirected_to_Home_Page_after_login() {
-	 WebUI.callTestCase(findTestCase('Pages/Home After Login/Verify Content Home Page After Login'), [:], FailureHandling.STOP_ON_FAILURE)
-	 }
-	 @Then("User should see popup warning message {string}")
-	 public void user_should_see_popup_warning_message(String message) {
-	 WebUI.callTestCase(findTestCase('Pages/Login/Error Message'), [('errortext') : '', ('expected') : message],
-	 FailureHandling.STOP_ON_FAILURE)
-	 }
-	 @Then("User should stay at Login Page")
-	 public void user_should_stay_at_Login_Page() {
-	 WebUI.callTestCase(findTestCase('Pages/Login/Verify Content Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
-	 }
-	 */
+		WebUI.closeBrowser()
+	}
 }

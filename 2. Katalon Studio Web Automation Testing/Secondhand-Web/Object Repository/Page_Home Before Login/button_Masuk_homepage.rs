@@ -6,6 +6,10 @@
    <elementGuidId>63fb3035-0d7f-43a4-a354-654adc9cf727</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary' and @href = '/users/sign_in']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/a</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>caf6dfa2-2576-4286-8ccc-91c3353c799a</webElementGuid>
+      <webElementGuid>9fd0b158-8e54-4a26-b29e-731ce593e7d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>b74bca58-8123-4fc1-a636-8b4b0a8871e6</webElementGuid>
+      <webElementGuid>36a1bb52-ba06-432d-91df-2c7eb4786306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/users/sign_in</value>
-      <webElementGuid>099dfc37-6003-4f33-a1ec-83173b2fb2e5</webElementGuid>
+      <webElementGuid>2b1bb289-6e63-43d2-b6d3-2d4b558c460d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +53,7 @@
   
   Masuk
 </value>
-      <webElementGuid>e207feae-0e2c-47f5-b321-fc21c4e44634</webElementGuid>
+      <webElementGuid>d90c99c0-9314-44f2-8127-0dfd5bc2b821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>4b09e18b-d1df-4f39-9f90-c46d723f6941</webElementGuid>
+      <webElementGuid>a1340491-8c04-4a47-b02e-6fddd7f60a76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/a</value>
-      <webElementGuid>1870b805-5c8c-4c7e-af64-ff07102f1199</webElementGuid>
+      <webElementGuid>60bebefe-19f3-455f-9c39-d145b7e84f3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan RamadhanBanyak diskon!'])[1]/preceding::a[1]</value>
-      <webElementGuid>3a749f61-8e22-498f-8ed7-a1b681a3673f</webElementGuid>
+      <webElementGuid>93b98c9f-63d1-4504-92fd-8700e211e680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga'])[1]/preceding::a[1]</value>
-      <webElementGuid>7a633ce8-e5ce-4ce7-ada1-4d3976e434ec</webElementGuid>
+      <webElementGuid>40411651-babb-4bed-b522-452ce7b2fa19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>161ae67f-9cea-40a9-9cc8-fa09ae4e93bc</webElementGuid>
+      <webElementGuid>de421714-5a93-409d-880f-d8831f2a2aff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/users/sign_in')]</value>
-      <webElementGuid>9cbb8f5a-046f-49ef-b103-6b1e74e0062b</webElementGuid>
+      <webElementGuid>469fe551-2a1b-495e-9f43-5db04d0614b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>efedfe2b-1957-420a-81b8-0a008a36f68b</webElementGuid>
+      <webElementGuid>858fa64d-afac-4272-9e85-3959c282a8a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
   
   Masuk
 ')]</value>
-      <webElementGuid>9c6ef91c-c903-4695-9718-af897e569312</webElementGuid>
+      <webElementGuid>3b2c099d-87aa-4abb-97ce-f72e81876ba3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

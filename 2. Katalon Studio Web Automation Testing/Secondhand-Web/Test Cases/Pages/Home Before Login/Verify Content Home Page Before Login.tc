@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Content Home Page Before Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f7a874d-0635-4f1e-9575-cb3d282c101b</testCaseGuid>
+</TestCaseEntity>
