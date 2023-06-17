@@ -28,7 +28,7 @@ class Hook {
 	def openBrowser() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/sign_in');
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 	}
 		
 	def closeBrowser() {
