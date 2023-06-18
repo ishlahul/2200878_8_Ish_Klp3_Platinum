@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>26db13be-cfeb-4eb1-9ef7-e637b1294c90</testSuiteGuid>
    <testCaseLink>
-      <guid>73a9e2fc-82f8-4e14-bd1e-aeb2e371e77d</guid>
+      <guid>6d6811d3-79de-4c25-b8e0-df6f03d2a448</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Step Definition/Feature Login/Positive/31 - User wants to login with correct credential</testCaseId>
