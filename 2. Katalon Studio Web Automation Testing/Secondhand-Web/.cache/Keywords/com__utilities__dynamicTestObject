@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0118D0900164968EFC288A58F5C24BFF",
+  "keywordFileContentHash": "756B46D00ED8FFE5F214FAED3C330186",
   "keywordClasses": [
     {
       "name": "com.utilities.dynamicTestObject",
@@ -20,10 +20,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
