@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card_Product</name>
+   <name>card_Product_available</name>
    <tag></tag>
-   <elementGuidId>68b01b1d-ca74-4dd4-ab7a-b305d5277a17</elementGuidId>
+   <elementGuidId>65d1c606-3a9a-472f-b44c-46dbdf2dca42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,11 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='products']/div[1]</value>
+         <value>//div[@id='products']/div[${index}]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'col-12 col-md-4 col-lg-3']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7e8cbb56-a832-4568-902d-48ffa02bad97</webElementGuid>
+      <webElementGuid>ee2f4bbb-37f3-420f-97c2-8aa7f60d06fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-4 col-lg-3</value>
-      <webElementGuid>8d6165e9-1c56-4df1-82b7-0eede6df613e</webElementGuid>
+      <webElementGuid>3748ea13-0745-45d4-ac9e-05a030a6e222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
   
 
       </value>
-      <webElementGuid>70ac8a9e-9a58-4b20-83c8-61608976ee04</webElementGuid>
+      <webElementGuid>30a03b40-155b-41d8-ad20-1b67eb645258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]</value>
-      <webElementGuid>d9df3b65-85b0-47b7-9274-5e24b3ca2f0e</webElementGuid>
+      <webElementGuid>f8b9ef27-ef97-4be5-824a-fe042608993f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div[5]</value>
-      <webElementGuid>2a47fdc6-70d5-46d6-bb1e-b7b9475f8dd8</webElementGuid>
+      <webElementGuid>38e2bac2-8e56-4018-bc8c-88fd15218673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 100.000'])[1]/following::div[1]</value>
-      <webElementGuid>d86b3928-1325-4973-938b-c9175e072700</webElementGuid>
+      <webElementGuid>592bf1e6-c03f-4fcc-85f8-ff05f8ba4f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LNP_1889'])[1]/following::div[1]</value>
-      <webElementGuid>c1844b8a-c980-4c08-90de-5acc6b59facb</webElementGuid>
+      <webElementGuid>00d820e9-aa04-4562-bd8b-03b891e2ed84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]</value>
-      <webElementGuid>d06749b5-2ef5-4283-a1c0-bf541194ce5e</webElementGuid>
+      <webElementGuid>456dd29a-dde4-4cbd-9848-8edee78583cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
   
 
       ')]</value>
-      <webElementGuid>ca5f9efc-e794-4bb0-9121-24feb444ee9a</webElementGuid>
+      <webElementGuid>b8402393-7af9-484f-8230-10e6fb79832f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
