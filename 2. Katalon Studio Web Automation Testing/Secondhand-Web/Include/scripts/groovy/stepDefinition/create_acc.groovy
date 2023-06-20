@@ -70,7 +70,10 @@ class create_acc {
 	}
 
 	@When("user input password {string}")
-	public void user_input_password(String password) {
+	public void inputValidPassword(String password) {
+		println("n/ I am inside inputValidPassword")
+		println("Password : "+password)
+		//public void user_input_password(String password) {
 		//@And("user input password(string)")
 		//public void user_input_password(String password) {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
@@ -84,5 +87,7 @@ class create_acc {
 	@Then("user see profile button")
 	public void user_see_profile_button() {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Verify Content Create Acc'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Page_HomeCreateAcc/i_Keluar_bi bi-person me-4 me-lg-0'))
+		WebUI.click(findTestObject('Page_HomeCreateAcc/button_Keluar'))
 	}
 }

@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HomeCreateAcc/a_Masuk",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/users/sign_in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HomeCreateAcc/a_Masuk_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HomeCreateAcc/a_Masuk",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bulan RamadhanBanyak diskon!\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }
