@@ -21,14 +21,20 @@
 Feature: Create New Account
   as a user I want to create new account
 
-  @CreateAcc01
-  Scenario: User want to register with correct credential
+  @CreateAcc01-04
+  Scenario Outline: User want to register with correct credential
     Given user is in secondhand homepage
     
     When user input nama "nama"
     And user input email "email"
-    And user input password "password"
+    And user input password "<password>"
     And user click button daftar
     Then user see profile button
     
  
+ Examples:
+ | password |
+ | dahlia12 |
+ | rose12345 |
+ | bbaddies2baddies1porscheluvyou |
+ | mawar123 |
