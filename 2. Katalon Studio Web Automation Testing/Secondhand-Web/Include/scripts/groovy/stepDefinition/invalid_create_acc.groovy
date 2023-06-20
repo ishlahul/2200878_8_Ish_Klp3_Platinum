@@ -4,8 +4,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.security.PublicKey
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -21,7 +19,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
-import sun.swing.PrintingStatus
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
@@ -48,42 +45,43 @@ import cucumber.api.java.en.When
 
 
 class invalid_create_acc {
+
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+
 	@Given("user opens secondhand homepage")
 	public void user_opens_secondhand_homepage() {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Disini'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user fill in nama {string} field")
-	//public void user_fill_in_nama_field(String nama) {
-	def enterNama(String nama) {
-		println("/n I am inside enterNama")
-		println("nama : "+nama)
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
-
-		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
+	@When("user fill in nama (.*) field")
+	public void user_fill_in_field_nama(String nama) {
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : nama], FailureHandling.STOP_ON_FAILURE)
+		println nama
 	}
 
-	@And("user fill in email {string} field")
-	public void user_fill_in_email_field(String email) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email'), [('email'): email], FailureHandling.STOP_ON_FAILURE)
+	@When("user fill in email (.*) field")
+	public void user_fill_in_field_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email Negative'), ['user_email' : email], FailureHandling.STOP_ON_FAILURE)
+		println email
 	}
 
-	@And("user fill in password {string} field")
-	public void user_fill_in_password_field(String password) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	@When("user fill in password (.*) field")
+	public void user_fill_in_field_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), ['user_password' : password], FailureHandling.STOP_ON_FAILURE)
+		println password
 	}
 
-	@And("user click on daftar button")
+	@When("user click on daftar button")
 	public void user_click_on_daftar_button() {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Button'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("user will see a message")
-	public void user_will_see_a_message() {
+	@Then("user will see a message (.*)")
+	public void user_will_see_a_message(String message) {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Verify Content Failed'), [:], FailureHandling.STOP_ON_FAILURE)
+		println message
 	}
 }

@@ -59,7 +59,8 @@ class create_acc {
 	public void user_input_nama(String nama) {
 		//@When("user input nama(string)")
 		//public void user_input_nama(String nama) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : 'karina'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("user input email {string}")
@@ -76,7 +77,8 @@ class create_acc {
 		//public void user_input_password(String password) {
 		//@And("user input password(string)")
 		//public void user_input_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), ['user_password' : 'password'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@And("user click button daftar")

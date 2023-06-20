@@ -24,11 +24,11 @@ Feature: Create New Account
   Scenario Outline: User want to register with invalid credential
     Given user opens secondhand homepage
     
-    When user fill in "<nama>" field
-    And user fill in "<email>" field
-    And user fill in "<password>" field
+    When user fill in nama <nama> field
+    And user fill in email <email> field
+    And user fill in password <password> field
     And user click on daftar button
-    Then user will see a "<message>"
+    Then user will see a message <message>
 
     Examples: 
       | nama  | email | password  | message |

@@ -35,6 +35,6 @@ Feature: Create New Account
  Examples:
  | password |
  | dahlia12 |
- | rose12345 |
+ | lesserafim22 |
  | bbaddies2baddies1porscheluvyou |
  | mawar123 |
