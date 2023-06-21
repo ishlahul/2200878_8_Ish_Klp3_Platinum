@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Baju_category'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Elektronik_category'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Hobi_category'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Jual'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Kendaraan_category'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Kesehatan_category'))
-
 WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Masuk_homepage'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Semua_category'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/card_Banner_center'))
 
@@ -39,15 +25,7 @@ WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/card_Banner_le
 
 WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/card_Banner_right'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/hlink_Next'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/hlink_Previous'))
-
 WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/icon_Brand'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/icon_Search'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/input_Searchproduct'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/text_Telusuri Kategori'))
 

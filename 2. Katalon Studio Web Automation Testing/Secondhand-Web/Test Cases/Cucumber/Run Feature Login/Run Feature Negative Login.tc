@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Run Feature Negative Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e1f7e991-9d79-4823-90be-6262cb05d9c5</testCaseGuid>
+   <testCaseGuid>546cf28b-a770-4f96-8832-eb067d198f4e</testCaseGuid>
 </TestCaseEntity>

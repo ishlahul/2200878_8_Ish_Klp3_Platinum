@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click Available Product</name>
+   <name>Input Positive Product Price Suggest Message</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b49a3166-4f0d-4fb6-a0cf-239f9b71b3ac</testCaseGuid>
+   <testCaseGuid>1d9f7bfd-8885-498f-a095-74b560f70578</testCaseGuid>
 </TestCaseEntity>
