@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runWithCucumberRunner(RunnerNegativeLogin.class)
+CucumberKW.runFeatureFile('Include/features/Bid Product/Negative/BidAProductUseIncorrectCredential.feature')
 

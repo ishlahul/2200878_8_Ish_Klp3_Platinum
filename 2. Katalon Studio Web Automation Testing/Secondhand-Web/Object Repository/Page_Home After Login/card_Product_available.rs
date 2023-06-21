@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>card_Product</name>
+   <name>card_Product_available</name>
    <tag></tag>
-   <elementGuidId>68b01b1d-ca74-4dd4-ab7a-b305d5277a17</elementGuidId>
+   <elementGuidId>65d1c606-3a9a-472f-b44c-46dbdf2dca42</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='products']/div[5]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div[${index}]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>54f3dde1-ce1a-46d9-9f33-33b24bf67890</webElementGuid>
+      <webElementGuid>ee2f4bbb-37f3-420f-97c2-8aa7f60d06fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-4 col-lg-3</value>
-      <webElementGuid>77f53866-2af1-4114-98e9-08714fed7e8a</webElementGuid>
+      <webElementGuid>3748ea13-0745-45d4-ac9e-05a030a6e222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +54,7 @@
   
 
       </value>
-      <webElementGuid>836dc660-4c19-429d-bb2b-75fcd1b96f8a</webElementGuid>
+      <webElementGuid>30a03b40-155b-41d8-ad20-1b67eb645258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]</value>
-      <webElementGuid>95cfa0bc-b8c3-4b9c-8aa5-083a0d94a290</webElementGuid>
+      <webElementGuid>f8b9ef27-ef97-4be5-824a-fe042608993f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div[5]</value>
-      <webElementGuid>92cc1bbc-7f65-4099-9566-4c655cfc616d</webElementGuid>
+      <webElementGuid>38e2bac2-8e56-4018-bc8c-88fd15218673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 100.000'])[1]/following::div[1]</value>
-      <webElementGuid>4ecabfe5-db59-4c37-9b03-9aefe8e2bb25</webElementGuid>
+      <webElementGuid>592bf1e6-c03f-4fcc-85f8-ff05f8ba4f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LNP_1889'])[1]/following::div[1]</value>
-      <webElementGuid>21da4a70-b5ce-4840-8731-6460c6cd4ae2</webElementGuid>
+      <webElementGuid>00d820e9-aa04-4562-bd8b-03b891e2ed84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]</value>
-      <webElementGuid>4f6b16c2-65c6-449e-b741-fed33975daba</webElementGuid>
+      <webElementGuid>456dd29a-dde4-4cbd-9848-8edee78583cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +126,6 @@
   
 
       ')]</value>
-      <webElementGuid>5435556a-cee3-432e-9438-b8d48f3f244a</webElementGuid>
+      <webElementGuid>b8402393-7af9-484f-8230-10e6fb79832f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

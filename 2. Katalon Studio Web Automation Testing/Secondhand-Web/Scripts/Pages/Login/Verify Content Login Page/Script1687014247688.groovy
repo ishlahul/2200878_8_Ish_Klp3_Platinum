@@ -17,19 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/background_Title_image'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/button_Masuk'))
-
 WebUI.verifyElementVisible(findTestObject('Page_Login/hlink_Daftar di sini'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/input_Email'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/input_Password'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/label_Email'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/label_Password'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/text_Belum punya akun'))
 

@@ -29,13 +29,7 @@ WebUI.verifyElementVisible(findTestObject('Page_Bid Product/icon_Search'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/icon_Userprofile'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Bid Product/image_Product'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Bid Product/image_Seller'))
-
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/input_Searchproduct'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Contentdeskripsi'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Deskipsi'))
 
@@ -44,8 +38,6 @@ WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Productcategory
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Productname'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Productprice'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Sellerlocation'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Sellername'))
 

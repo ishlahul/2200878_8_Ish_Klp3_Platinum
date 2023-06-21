@@ -34,9 +34,10 @@ WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Content'), [:], Failur
 
 WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Bid Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Product Price'), [('productbidprice') : '-45000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Product Price'), [('productbidprice') : '1000'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Button Waiting Seller Response'), [('sellerresponse') : '', ('expexted') : 'Menunggu respon penjual'], 
+    FailureHandling.STOP_ON_FAILURE)
 

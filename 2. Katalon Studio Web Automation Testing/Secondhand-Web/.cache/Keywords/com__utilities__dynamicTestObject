@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "756B46D00ED8FFE5F214FAED3C330186",
+  "keywordClasses": [
+    {
+      "name": "com.utilities.dynamicTestObject",
+      "keywordMethods": [
+        {
+          "name": "testdynamicobject",
+          "parameters": [
+            {
+              "name": "xpath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
