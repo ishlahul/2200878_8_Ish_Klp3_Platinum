@@ -14,8 +14,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import groovy.json.StringEscapeUtils as StringEscapeUtils
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page_AfterCreateAcc/input_Nama_username'), '')
+WebUI.clearText(findTestObject('Page_AfterCreateAcc/input_Nama_username'))
+
+WebUI.setText(findTestObject('Page_AfterCreateAcc/input_Nama_username'), update_nama)
 

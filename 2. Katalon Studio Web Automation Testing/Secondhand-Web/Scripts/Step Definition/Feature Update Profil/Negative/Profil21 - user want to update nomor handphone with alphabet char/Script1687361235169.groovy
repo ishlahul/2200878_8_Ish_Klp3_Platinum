@@ -31,7 +31,9 @@ WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon profil'), [:], F
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click avatar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Page_AfterCreateAcc/input_Nama_username'))
+WebUI.callTestCase(findTestCase('Pages/Update Profil/input no handphone'), [('update_nomor') : 'harusnyagabisa'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Update Profil/input nama user'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
 
