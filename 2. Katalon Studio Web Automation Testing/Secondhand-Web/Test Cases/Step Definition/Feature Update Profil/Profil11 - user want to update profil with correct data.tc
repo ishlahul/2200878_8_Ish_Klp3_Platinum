@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Profil01 - user want to update profil with correct data</name>
+   <name>Profil11 - user want to update profil with correct data</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>af023b45-2fba-4b4b-93b8-6cf7877db898</testCaseGuid>
+   <testCaseGuid>6e9ca7fa-b701-4aa4-9dad-67baf5a8f8cb</testCaseGuid>
 </TestCaseEntity>
