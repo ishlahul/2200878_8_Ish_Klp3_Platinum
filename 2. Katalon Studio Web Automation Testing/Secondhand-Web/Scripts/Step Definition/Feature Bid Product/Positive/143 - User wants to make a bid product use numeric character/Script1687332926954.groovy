@@ -17,5 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.getAttribute(findTestObject('Page_Bid Product/popup_input_Bidproduct'), 'validationMessage', 'true', 20)
+WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Positive/31 - User wants to login with correct credential'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+String intindex = '1'
+
+println('__________I am inside parameterize object index product : ' + intindex + '__________')
+
+def xpath = '//div[@id=products]/div[' + intindex + ']'
+
+WebUI.click(findTestObject('Page_Home After Login/card_Product_available', [('index') : intindex]))
+
+//CustomKeywords.'com.utilities.dynamicTestObject.testdynamicobject'(xpath)
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Bid Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Product Price'), [('productbidprice') : '1000'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Button Waiting Seller Response'), [('sellerresponse') : '', ('expexted') : 'Menunggu respon penjual'], 
+    FailureHandling.STOP_ON_FAILURE)
 

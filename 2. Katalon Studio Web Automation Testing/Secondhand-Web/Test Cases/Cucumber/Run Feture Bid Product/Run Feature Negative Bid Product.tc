@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Textfield Input Product Price Suggest Message</name>
+   <name>Run Feature Negative Bid Product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1d9f7bfd-8885-498f-a095-74b560f70578</testCaseGuid>
+   <testCaseGuid>54c7af80-ad9a-4090-9783-91fdc0a35640</testCaseGuid>
 </TestCaseEntity>
