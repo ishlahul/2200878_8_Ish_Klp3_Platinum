@@ -16,3 +16,10 @@ build
 .project
 
 Test Cases/Add_product.tc
+
+.classpath/*
+.settings/*
+.project/*
+.chace/*
+*.gradle
+*.log
