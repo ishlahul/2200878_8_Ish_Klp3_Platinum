@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementNotPresent(findTestObject('Page_AfterCreateAcc/masuk_button'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Page_AfterCreateAcc/div_Lengkapi Info Akun'), 0)
 

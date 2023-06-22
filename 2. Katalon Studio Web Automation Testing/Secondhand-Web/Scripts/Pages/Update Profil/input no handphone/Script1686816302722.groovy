@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page_AfterCreateAcc/input_No Handphone_userphone_number'), '')
+WebUI.clearText(findTestObject('Page_AfterCreateAcc/input_No Handphone_userphone_number'))
+
+WebUI.setText(findTestObject('Page_AfterCreateAcc/input_No Handphone_userphone_number'), update_nomor)
 
