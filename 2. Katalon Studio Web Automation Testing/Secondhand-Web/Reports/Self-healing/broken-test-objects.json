@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Home Before Login/button_Masuk_homepage",
+      "brokenLocator": "//*[@class \u003d \u0027btn btn-primary\u0027 and @href \u003d \u0027/users/sign_in\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bulan RamadhanBanyak diskon!\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

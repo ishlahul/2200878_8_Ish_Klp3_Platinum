@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Deskripsi_form-image rounded-4 img-preview</name>
+   <name>avatar-input</name>
    <tag></tag>
-   <elementGuidId>7dde0013-c5a9-43df-8206-7f1fffd33c81</elementGuidId>
+   <elementGuidId>936f6546-e95f-4ed1-941e-e9c56ef8a098</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@onclick='clickFileInput(this)']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>div.form-image.rounded-4.img-preview</value>
+         <value>#form-avatar-input</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;input-images&quot;)/div[@class=&quot;form-image rounded-4 img-preview&quot;]</value>
+         <key>XPATH</key>
+         <value>//div[@id='form-avatar-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c73a5b45-7772-452e-af74-bbf3403fb71d</webElementGuid>
+      <webElementGuid>fbbd2d57-c38c-47f1-a4b6-3b9095cc7e38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-image rounded-4 img-preview</value>
-      <webElementGuid>4ad22c52-2612-40a1-85d8-39ac9831fd2c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>clickFileInput(this)</value>
-      <webElementGuid>98b8c633-00ae-4042-a304-1b0d18d6b412</webElementGuid>
+      <value>form-avatar rounded-4 text-primary bg-alt-primary p-5</value>
+      <webElementGuid>ed4e8fdd-c95a-444f-87b0-2b61434b31da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form-avatar-input</value>
+      <webElementGuid>0f650280-e441-415f-9f3d-57ae45e39155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;input-images&quot;)/div[@class=&quot;form-image rounded-4 img-preview&quot;]</value>
-      <webElementGuid>93a2a1b5-8eda-4a95-b3c2-58da9b2ef18d</webElementGuid>
+      <value>id(&quot;form-avatar-input&quot;)</value>
+      <webElementGuid>8fef8bff-ca64-4157-bd64-7f87ddbd0eef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@onclick='clickFileInput(this)']</value>
-      <webElementGuid>8a171792-07d7-46d5-a8f9-1b50db7d84ab</webElementGuid>
+      <value>//div[@id='form-avatar-input']</value>
+      <webElementGuid>a1963eee-c259-4c34-a326-f50737075133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='input-images']/div</value>
-      <webElementGuid>0448c443-f064-4f1d-af07-bbd1c0b66982</webElementGuid>
+      <value>//div[@id='form-avatar-view']/div</value>
+      <webElementGuid>1ca83fd9-056e-43e8-a7ed-05069bac54b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[2]</value>
-      <webElementGuid>1107355e-d29b-42df-8886-d74e1a5d4151</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Info Akun'])[1]/following::div[5]</value>
+      <webElementGuid>5ed3841c-992e-40b3-9c27-846e8322a2f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::div[3]</value>
-      <webElementGuid>a1430571-532f-4ff6-9717-aa3136bd3466</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[1]</value>
+      <webElementGuid>910b6b5b-7c87-427e-88be-8ddce03bcedc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::div[1]</value>
-      <webElementGuid>15cfbede-28f8-4ae2-bc7a-8092b3f0a231</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::div[1]</value>
-      <webElementGuid>433e13b9-e9c0-4412-963c-992d78842257</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/preceding::div[2]</value>
+      <webElementGuid>ceaa17a3-534f-44e8-b4ea-3d15d4b0b5de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div</value>
-      <webElementGuid>bb524b40-a374-4203-b92c-366fc5660cdd</webElementGuid>
+      <value>//div/div/div</value>
+      <webElementGuid>65efb53c-7333-4d8b-bbab-f53a60bb435c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'form-avatar-input']</value>
+      <webElementGuid>8202be15-647c-4018-aa89-b516b6744cb7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
