@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Page_AfterCreateAcc/select_Pilih Kota'), kota, true)
+WebUI.click(findTestObject('Page_AfterCreateAcc/kamera'))
 

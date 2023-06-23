@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kamera</name>
+   <tag></tag>
+   <elementGuidId>5428d010-4e52-4c88-acd6-603e3e585287</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='form-avatar-input']/i</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-camera.display-6</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;form-avatar-input&quot;)/i[@class=&quot;bi bi-camera display-6&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cd42df55-5f87-42f4-bf6e-60f7ff5e7287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-camera display-6</value>
+      <webElementGuid>3e1b8cd9-9363-4f98-9238-9f5fdfbeee03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-avatar-input&quot;)/i[@class=&quot;bi bi-camera display-6&quot;]</value>
+      <webElementGuid>900e9466-6481-412c-919d-c77f5db57660</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form-avatar-input']/i</value>
+      <webElementGuid>03163206-41e0-4d56-a71d-cdbd9f187ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>c59d6f12-f1a1-4200-a6b5-2a84756d9bf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

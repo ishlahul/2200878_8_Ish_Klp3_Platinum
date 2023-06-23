@@ -31,9 +31,14 @@ WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon profil'), [:], F
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click avatar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Update Profil/select kota user'), ['kota' : '','isRegex' : true], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon kamera'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Update Profil/upload foto profil'), ['foto_profil' : '/Users/rezafarandi/profil/joy.jpg'], FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.callTestCase(findTestCase('Pages/Update Profil/upload foto profil'), [('foto_profil') : '//Users/rezafarandi/profil/joy.jpg'], 
+    //FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
 

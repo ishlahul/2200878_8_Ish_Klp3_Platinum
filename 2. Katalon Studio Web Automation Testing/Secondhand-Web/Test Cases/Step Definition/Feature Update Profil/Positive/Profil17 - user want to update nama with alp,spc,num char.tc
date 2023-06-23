@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Profil17 - user want to update nama with alphabet,special,numeric char</name>
+   <name>Profil17 - user want to update nama with alp,spc,num char</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e0539511-1258-424c-ad9a-899d3d8ea745</testCaseGuid>
