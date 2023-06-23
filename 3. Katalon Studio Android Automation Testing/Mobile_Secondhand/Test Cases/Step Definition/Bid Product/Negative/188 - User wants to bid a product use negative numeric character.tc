@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>188 - User wants to bid a product use negative numeric character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ad3fa4e-e989-4f29-bdc6-c85daf733b31</testCaseGuid>
+</TestCaseEntity>
