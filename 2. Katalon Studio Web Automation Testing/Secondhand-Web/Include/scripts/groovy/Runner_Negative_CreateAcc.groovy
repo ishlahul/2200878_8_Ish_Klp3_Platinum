@@ -31,5 +31,4 @@ monochrome = true
 )
 
 public class Runner_Negative_CreateAcc {
-	
 }
