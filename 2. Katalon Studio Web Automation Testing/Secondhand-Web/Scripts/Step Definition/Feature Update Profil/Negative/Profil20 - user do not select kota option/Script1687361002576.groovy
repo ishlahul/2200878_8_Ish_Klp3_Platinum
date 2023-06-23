@@ -31,7 +31,11 @@ WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon profil'), [:], F
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click avatar'), [:], FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 WebUI.callTestCase(findTestCase('Pages/Update Profil/select kota user'), [('kota') : 'Pilih Kota'], FailureHandling.STOP_ON_FAILURE)
+=======
+WebUI.callTestCase(findTestCase('Pages/Update Profil/select kota user'), ['kota' : '','isRegex' : true], FailureHandling.STOP_ON_FAILURE)
+>>>>>>> 3fcd9448fa02712a89b2051eb214458a287dc872
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
 

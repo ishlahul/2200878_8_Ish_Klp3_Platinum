@@ -59,7 +59,8 @@ class create_acc {
 	public void user_input_nama(String nama) {
 		//@When("user input nama(string)")
 		//public void user_input_nama(String nama) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : 'karina'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("user input email {string}")
@@ -70,10 +71,14 @@ class create_acc {
 	}
 
 	@When("user input password {string}")
-	public void user_input_password(String password) {
+	public void inputValidPassword(String password) {
+		println("n/ I am inside inputValidPassword")
+		println("Password : "+password)
+		//public void user_input_password(String password) {
 		//@And("user input password(string)")
 		//public void user_input_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), ['user_password' : 'password'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@And("user click button daftar")
@@ -84,5 +89,7 @@ class create_acc {
 	@Then("user see profile button")
 	public void user_see_profile_button() {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Verify Content Create Acc'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Page_HomeCreateAcc/i_Keluar_bi bi-person me-4 me-lg-0'))
+		WebUI.click(findTestObject('Page_HomeCreateAcc/button_Keluar'))
 	}
 }

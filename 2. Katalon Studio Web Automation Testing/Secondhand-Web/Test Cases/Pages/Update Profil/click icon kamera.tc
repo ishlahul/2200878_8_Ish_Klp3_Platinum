@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Profil01 - user want to update profil with correct data</name>
+   <name>click icon kamera</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>af023b45-2fba-4b4b-93b8-6cf7877db898</testCaseGuid>
+   <testCaseGuid>a69efeb1-8e8f-494b-adc8-1d3db7a8ead9</testCaseGuid>
 </TestCaseEntity>

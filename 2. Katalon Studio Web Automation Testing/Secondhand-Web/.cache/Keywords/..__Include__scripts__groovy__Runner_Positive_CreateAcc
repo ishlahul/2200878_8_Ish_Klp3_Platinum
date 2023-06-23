@@ -1,10 +1,18 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "9C8E656B1269D73810222945BFAAC3AA",
+=======
+  "keywordFileContentHash": "BCE0C49DC2DDCD4BF56E0C7EE03D27A4",
+>>>>>>> 3fcd9448fa02712a89b2051eb214458a287dc872
   "keywordClasses": [
     {
       "name": "Runner_Positive_CreateAcc",
       "keywordMethods": []
     }
   ],
+<<<<<<< HEAD
   "javadocParsed": false
+=======
+  "javadocParsed": true
+>>>>>>> 3fcd9448fa02712a89b2051eb214458a287dc872
 }

@@ -48,7 +48,7 @@ class BidAProductUseCorrectCredential {
 	@Given("user login the web SecondHand")
 	def navigateToHomePageAfterLogin() {
 		println("/n I am Inside navigateToHomePageAfterLogin")
-		
+
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
