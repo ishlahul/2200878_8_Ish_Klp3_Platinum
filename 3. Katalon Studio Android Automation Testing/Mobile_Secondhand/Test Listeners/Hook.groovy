@@ -26,7 +26,8 @@ import com.kms.katalon.core.util.KeywordUtil
 class Hook {
 	
   def launchApp() {
-	Mobile.startApplication('Apk/app-release-second-hand-gcp.apk', true)
+	Mobile.startExistingApplication('id.binar.fp.secondhand')
+	//Mobile.startApplication('Apk/app-release.apk', true)
   }
 	
   @BeforeTestCase

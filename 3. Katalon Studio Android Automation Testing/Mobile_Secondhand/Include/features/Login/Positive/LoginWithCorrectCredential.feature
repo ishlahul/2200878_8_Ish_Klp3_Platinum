@@ -27,8 +27,8 @@ Feature: Check the Login Functionality
     When user fill in text field email with registered <email>
     And user fill in text field password with registered <password>
     And user tap on button Masuk at Login Screen Page
-    Then user should see <directed>
+    Then user should see Akun Saya Page After Login
 
     Examples: 
-      | email           | password | directed            |
-      | qae@example.com | binar123 | Account Screen Page |
+      | email           | password  |
+      | idris@gmail.com | binar1234 |
