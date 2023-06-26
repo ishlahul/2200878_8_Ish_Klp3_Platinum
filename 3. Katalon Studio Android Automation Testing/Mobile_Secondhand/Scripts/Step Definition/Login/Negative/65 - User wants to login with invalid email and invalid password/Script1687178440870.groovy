@@ -27,5 +27,10 @@ Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
 WebUI.callTestCase(findTestCase('Pages/Login/Popup Wrong Email or Password'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Popup Wrong Email or Password'), [('expected') : 'Email atau kata sandi salah'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 
