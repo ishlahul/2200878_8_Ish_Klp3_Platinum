@@ -56,7 +56,6 @@ class BidAProductUseIncorrectCredential {
 	 WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Positive/31 - User wants to login with correct credential'),
 	 [:], FailureHandling.STOP_ON_FAILURE)
 	 }
-	 
 	 @And("user click on product card")
 	 def navigateToProductPage() {
 	 println("/n I am Inside navigateToProductPage")
@@ -66,7 +65,6 @@ class BidAProductUseIncorrectCredential {
 	 WebUI.click(findTestObject('Page_Home After Login/card_Product_available', [('index') : intindex]))
 	 //CustomKeywords.'com.utilities.dynamicTestObject.testdynamicobject'(xpath)}
 	 }
-	 
 	 @When("user click on button I am interested and want to negotiate")
 	 def clickButtonNegotiatite() {
 	 println("/n I am Inside clickButtonNegotiatite")

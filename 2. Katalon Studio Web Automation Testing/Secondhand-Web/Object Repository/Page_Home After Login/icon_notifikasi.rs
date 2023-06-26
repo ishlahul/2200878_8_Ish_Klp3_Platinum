@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_Notification</name>
+   <name>icon_notifikasi</name>
    <tag></tag>
-   <elementGuidId>5d53c38e-395c-48be-aa94-2daada47bc00</elementGuidId>
+   <elementGuidId>a25d677c-7272-4b74-bf36-87ff5b79482e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'bi bi-bell me-4 me-lg-0']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
@@ -26,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>552106e9-2800-4d72-84ab-a39b137f1f33</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>bi bi-bell me-4 me-lg-0</value>
-      <webElementGuid>ed471834-828e-4d35-b3b7-8e20919826ff</webElementGuid>
+      <webElementGuid>33fcf066-d006-4b84-80e5-2e097c089881</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-bell me-4 me-lg-0</value>
+      <webElementGuid>08754d2f-310c-4ebd-9c9b-de732c50ca83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item me-0 me-lg-2 fs-5 d-block d-xl-none position-relative&quot;]/a[@class=&quot;nav-link d-flex align-items-center&quot;]/i[@class=&quot;bi bi-bell me-4 me-lg-0&quot;]</value>
-      <webElementGuid>cdc9b9c4-787e-4b74-b0ce-6214dc134ea8</webElementGuid>
+      <webElementGuid>2c4b1f08-5628-4b40-9a87-fdc54dd84950</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
-      <webElementGuid>96c31f07-3888-4f48-a709-0c257147061d</webElementGuid>
+      <webElementGuid>84e6fb44-a2ce-41c1-a803-c7763007029a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/i</value>
-      <webElementGuid>ea0a4380-c51b-4c46-92c2-269ed7daab75</webElementGuid>
+      <webElementGuid>584a0bd3-afb3-4e3a-893e-6fdd203bf2f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
