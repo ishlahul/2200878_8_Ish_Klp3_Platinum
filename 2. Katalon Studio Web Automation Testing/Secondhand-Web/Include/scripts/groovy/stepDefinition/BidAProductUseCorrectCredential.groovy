@@ -48,7 +48,7 @@ class BidAProductUseCorrectCredential {
 	@Given("user login the web SecondHand")
 	def navigateToHomePageAfterLogin() {
 		println("/n I am Inside navigateToHomePageAfterLogin")
-		
+
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
@@ -61,7 +61,7 @@ class BidAProductUseCorrectCredential {
 	def navigateToProductPage() {
 		println("/n I am Inside navigateToProductPage")
 
-		String intindex = '2'
+		String intindex = '1'
 
 		println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
 

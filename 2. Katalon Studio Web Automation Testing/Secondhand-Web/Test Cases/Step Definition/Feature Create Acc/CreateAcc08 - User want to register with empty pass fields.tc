@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc08 - User want to register with empty pass fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b22de7a1-1e01-4b2c-b4b4-e021c93dfc3b</testCaseGuid>
+</TestCaseEntity>

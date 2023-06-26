@@ -93,15 +93,15 @@ class BidAProductUseIncorrectCredential {
 		println("/n I am Inside verifyValidation"+message)
 
 		if (message == 'Input Number') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 
 		else if (message == 'Warning Message') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 
 		else if (message == 'Required Product Price') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 		WebUI.closeBrowser()
 	}

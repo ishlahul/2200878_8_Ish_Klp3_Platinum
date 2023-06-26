@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc10 - User want to register with invalid email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dcdbba0-dd98-4d68-9efe-7a479fbf73e3</testCaseGuid>
+</TestCaseEntity>
