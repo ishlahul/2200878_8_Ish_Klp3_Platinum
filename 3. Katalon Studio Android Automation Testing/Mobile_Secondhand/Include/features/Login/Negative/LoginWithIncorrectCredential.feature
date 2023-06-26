@@ -30,10 +30,11 @@ Feature: Check the Login Functionality
     Then user should see popup <message>
 
     Examples: 
-      | email               | password | message         |
-      | invalid@example.com | invalid  | Warning Message |
-      | invalid@example.com | binar123 | Warning Message |
-      | binar@example.com   | invalid  | Warning Message |
-      |                     |          | Warning Message |
-      |                     | binar123 | Warning Message |
-      | binar@example.com   |          | Warning Message |
+      | email               | password  | message                      |
+      | invalid@example.com | invalid   | Email atau kata sandi salah  |
+      | invalid@example.com | binar1234 | Email atau kata sandi salah  |
+      | idris@gmail.com     | invalid   | Email atau kata sandi salah  |
+      |                     |           | Email tidak boleh kosong     |
+      |                     | binar1234 | Email tidak boleh kosong     |
+      | idris@gmail.com     |           | Password  tidak boleh kosong |
+      | idris               | binar1234 | Email tidak valid            |

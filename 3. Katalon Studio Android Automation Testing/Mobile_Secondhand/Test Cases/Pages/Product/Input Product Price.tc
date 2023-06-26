@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Product Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b3b5418-dcf8-480f-885a-16eddf24bd27</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e544f881-cb01-460e-8902-9b06d37e6cdd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e544f881-cb01-460e-8902-9b06d37e6cdd</id>
+      <masked>false</masked>
+      <name>productPrice</name>
+   </variable>
+</TestCaseEntity>
