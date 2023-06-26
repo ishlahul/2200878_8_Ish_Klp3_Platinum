@@ -44,67 +44,49 @@ import cucumber.api.java.en.When
 
 
 
-class UpdateProfil_Invalid {
+class Upload_Foto_Valid {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-
-	@Given("user login on secondhand web")
-	public void user_login_on_secondhand_web() {
+	@Given("user on a profile page secondhand")
+	public void user_on_a_profile_page_secondhand() {
 		WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Login Home Page'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Login/Verify Content Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : 'karina120@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'aespa1234'], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
-		// Write code here that turns the phrase above into concrete actions
-	}
-
-	@When("user click profil icon")
-	public void user_click_profil_icon() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon profil'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click avatar'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-
+		
 	}
-
-	@When("user not choose kota  option")
-	public void user_not_choose_kota_option() {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/select kota user'), ['kota' : '','isRegex' : true], FailureHandling.STOP_ON_FAILURE)
+	
+	@When("user click on camera icon")
+	public void user_click_on_camera_icon() {
+		WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon kamera'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-
+		
 	}
-
-	@When("user click simpan")
-	public void user_click_simpan() {
+	
+	@When("user pick a file  to upload")
+	public void user_pick_a_file_to_upload() {
+		WebUI.callTestCase(findTestCase('Pages/Update Profil/upload foto profil'), ['foto_profil' : '/Users/rezafarandi/profil/joy.jpg'], FailureHandling.STOP_ON_FAILURE)
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+	
+	@When("user clik on a simpan button")
+	public void user_clik_on_a_simpan_button() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-
-	}
-
-	@Then("user will see a warning message please select an item on a list")
-	public void user_will_see_a_warning_message_please_select_an_item_on_a_list() {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.click(findTestObject('Page_AfterCreateAcc/back arrow'))
-		WebUI.click(findTestObject('Page_HomeCreateAcc/i_Keluar_bi bi-person me-4 me-lg-0'))
-		WebUI.click(findTestObject('Page_HomeCreateAcc/button_Keluar'))
-		// Write code here that turns the phrase above into concrete actions
-	}
-
-	@When("user input nomor with (.*)")
-	public void user_input_nomor_with_harusnyagabisa(String nomor) {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/input no handphone'), [('update_nomor') : nomor], FailureHandling.STOP_ON_FAILURE)
-		// Write code here that turns the phrase above into concrete actions
-
-	}
-
-	@Then("user will see a warning please input phone number with a valid format")
-	public void user_will_see_a_warning_please_input_phone_number_with_a_valid_format() {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
 		
-<<<<<<< HEAD
-=======
-		// Write code here that turns the phrase above into concrete actions
-
-
->>>>>>> app positive regis
 	}
+	
+	@Then("user will sucessfully uploading photo profile")
+	public void user_will_sucessfully_uploading_photo_profile() {
+		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+	
 }
