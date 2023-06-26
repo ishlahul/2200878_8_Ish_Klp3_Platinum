@@ -27,5 +27,5 @@ Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Suggest Message Invalid Email'), [('expected') : 'Email tidak valid'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Invalid Email'), [('expected') : 'Email tidak valid'], FailureHandling.STOP_ON_FAILURE)
 

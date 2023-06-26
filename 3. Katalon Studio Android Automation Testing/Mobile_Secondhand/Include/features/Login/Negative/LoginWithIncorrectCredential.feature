@@ -33,8 +33,8 @@ Feature: Check the Login Functionality
       | email               | password  | message                      |
       | invalid@example.com | invalid   | Email atau kata sandi salah  |
       | invalid@example.com | binar1234 | Email atau kata sandi salah  |
-      | idris@gmail.com     | invalid   | Email atau kata sandi salah  |
+      | idrism@gmail.com    | invalid   | Email atau kata sandi salah  |
       |                     |           | Email tidak boleh kosong     |
       |                     | binar1234 | Email tidak boleh kosong     |
-      | idris@gmail.com     |           | Password  tidak boleh kosong |
+      | idrism@gmail.com    |           | Password  tidak boleh kosong |
       | idris               | binar1234 | Email tidak valid            |
