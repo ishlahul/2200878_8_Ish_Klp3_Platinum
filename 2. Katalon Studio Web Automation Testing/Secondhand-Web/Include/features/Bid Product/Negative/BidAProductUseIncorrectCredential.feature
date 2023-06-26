@@ -30,6 +30,6 @@ Feature: Check the Product Purchase as a Buyer Functionality
       | price        | message                |
       | seratus ribu | Input Number 			    |
       | -200000      | Warning Message        |  
-      | 40&+-*@10    | Input Number           |
+      | !0&+-*@10    | Input Number           |
       |              | Required Product Price |
       | 0            | Required Product Price |
