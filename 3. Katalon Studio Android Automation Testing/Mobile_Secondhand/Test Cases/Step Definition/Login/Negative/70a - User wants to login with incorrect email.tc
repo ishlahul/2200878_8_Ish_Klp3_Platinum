@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Content Bid Product</name>
+   <name>70a - User wants to login with incorrect email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8494eb35-43a9-4e37-bcb2-5e98047d677d</testCaseGuid>
+   <testCaseGuid>480b46b3-2014-46c8-8ab4-48fded36c08f</testCaseGuid>
 </TestCaseEntity>

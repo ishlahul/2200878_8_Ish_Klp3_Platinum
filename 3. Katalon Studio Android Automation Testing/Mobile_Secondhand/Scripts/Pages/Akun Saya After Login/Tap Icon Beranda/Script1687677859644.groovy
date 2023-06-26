@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
-
-WebUI.verifyElementVisible(findTestObject(null))
+Mobile.tap(findTestObject('Page_Akun Saya After Login/navigationbar_icon_Beranda'), 0)
 

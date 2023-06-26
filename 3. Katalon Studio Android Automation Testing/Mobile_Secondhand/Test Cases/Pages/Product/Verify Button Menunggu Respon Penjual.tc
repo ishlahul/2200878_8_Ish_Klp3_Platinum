@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>70 - User wants to log in with empty password</name>
+   <name>Verify Button Menunggu Respon Penjual</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>32b76393-3e6b-4e16-817f-8342cdabd1fc</testCaseGuid>
+   <testCaseGuid>056d0c51-0634-42a7-9b94-2c25d55b9492</testCaseGuid>
 </TestCaseEntity>

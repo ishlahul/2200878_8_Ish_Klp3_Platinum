@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : 'invalidemail@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'invalidpass'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Popup Warning Message'), [('expected') : 'Email atau kata sandi salah'], FailureHandling.STOP_ON_FAILURE)
+

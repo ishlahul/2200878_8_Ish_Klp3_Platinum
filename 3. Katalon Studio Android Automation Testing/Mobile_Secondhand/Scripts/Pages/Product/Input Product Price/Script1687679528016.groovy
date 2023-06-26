@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.clearText(findTestObject('Page_Product/textfield_Harga.Tawar'), 0)
 
-Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : ''], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Page_Product/textfield_Harga.Tawar'), productPrice, 0)
 

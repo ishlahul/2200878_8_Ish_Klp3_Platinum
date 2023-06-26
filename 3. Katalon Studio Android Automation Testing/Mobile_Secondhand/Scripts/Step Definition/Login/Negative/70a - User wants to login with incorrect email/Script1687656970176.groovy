@@ -21,9 +21,11 @@ Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], 
 
 Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : 'idrismadyasto'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'binar1234'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Login/Suggest Message Invalid Email'), [('expected') : 'Email tidak valid'], FailureHandling.STOP_ON_FAILURE)
 

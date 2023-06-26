@@ -45,21 +45,54 @@ import cucumber.api.java.en.When
 
 
 class LoginWithIncorrectCredential {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	/*
+	@Given("user open the app Second Hand")
+	def openApp() {
+		println("/n I am Inside openApp")
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@And("user tap on menu button Akun")
+	def tapNavigationBarAkun() {
+		println("/n I am Inside tapNavigationBarAkun")
+
+		Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@And("user tap on button Masuk")
+	def navigateToLoginPage() {
+		println("/n I am Inside navigateToLoginPage")
+
+		Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	*/
+
+	@When ("user fill in text field email with invalid (.*)")
+	def enterInvalidEmail(String email) {
+		println("n/ I am inside enterInvalidEmail")
+		println("Password : "+email)
+
+		Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@And ("user fill in text field password with invalid (.*)")
+	def enterInvalidPassword(String password) {
+		println("n/ I am inside enterInvalidPassword")
+		println("Password : "+password)
+
+		Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	/*
+	@And ("user tap on button Masuk at Login Screen Page")
+	def tapButtonLoginAtLoginPage() {
+		println("/n I am Inside tapButtonLoginAtLoginPage")
+
+		Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	*/
+
+	@Then ("user should see popup (.*)")
+	def popupWarningMessage(String message) {
+		
 	}
 }
