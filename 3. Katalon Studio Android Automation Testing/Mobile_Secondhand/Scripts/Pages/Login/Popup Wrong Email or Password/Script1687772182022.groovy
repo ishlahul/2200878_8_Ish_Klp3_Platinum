@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+
+Mobile.waitForElementPresent(findTestObject('Page_Login/testobject_Email.atau.kata.sandi.salah'), 0)
+
 Mobile.waitForElementPresent(findTestObject('Page_Login/verify_Email.atau.kata.sandi.salah'), 0)
 
 errorText = Mobile.getText(findTestObject('Page_Login/verify_Email.atau.kata.sandi.salah'), 0)
@@ -25,4 +28,5 @@ errorText = Mobile.getText(findTestObject('Page_Login/verify_Email.atau.kata.san
 KeywordUtil.logInfo('Popup Warning Message : ' + errorText)
 
 Mobile.verifyMatch(errorText, expected, true)
+
 
