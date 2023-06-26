@@ -50,29 +50,21 @@ class BidAProductUseIncorrectCredential {
 	 @Given("user login the web SecondHand")
 	 def navigateToHomePageAfterLogin() {
 	 println("/n I am Inside navigateToHomePageAfterLogin")
-	 
-		 WebUI.openBrowser('')
-		WebUI.maximizeWindow()
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
-	 
+	 WebUI.openBrowser('')
+	 WebUI.maximizeWindow()
+	 WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
 	 WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Positive/31 - User wants to login with correct credential'),
 	 [:], FailureHandling.STOP_ON_FAILURE)
 	 }
-	 
 	 @And("user click on product card")
 	 def navigateToProductPage() {
 	 println("/n I am Inside navigateToProductPage")
-	 		String intindex = '2'
-
-	println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
-
-	def xpath = ('//div[@id=products]/div[' + intindex) + ']'
-
-	WebUI.click(findTestObject('Page_Home After Login/card_Product_available', [('index') : intindex]))
-
-	//CustomKeywords.'com.utilities.dynamicTestObject.testdynamicobject'(xpath)}
+	 String intindex = '2'
+	 println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
+	 def xpath = ('//div[@id=products]/div[' + intindex) + ']'
+	 WebUI.click(findTestObject('Page_Home After Login/card_Product_available', [('index') : intindex]))
+	 //CustomKeywords.'com.utilities.dynamicTestObject.testdynamicobject'(xpath)}
 	 }
-	 
 	 @When("user click on button I am interested and want to negotiate")
 	 def clickButtonNegotiatite() {
 	 println("/n I am Inside clickButtonNegotiatite")
@@ -101,15 +93,15 @@ class BidAProductUseIncorrectCredential {
 		println("/n I am Inside verifyValidation"+message)
 
 		if (message == 'Input Number') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 
 		else if (message == 'Warning Message') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 
 		else if (message == 'Required Product Price') {
-			WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 		WebUI.closeBrowser()
 	}

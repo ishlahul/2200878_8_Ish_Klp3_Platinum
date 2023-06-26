@@ -20,16 +20,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Positive/31 - User wants to login with correct credential'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-String intindex = '1'
+String intindex = '5'
 
-println('__________I am inside parameterize object index product : ' + intindex + '__________')
+println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
 
-def xpath = '//div[@id=products]/div[' + intindex + ']'
+def xpath = ('//div[@id=products]/div[' + intindex) + ']'
 
 WebUI.click(findTestObject('Page_Home After Login/card_Product_available', [('index') : intindex]))
 
 //CustomKeywords.'com.utilities.dynamicTestObject.testdynamicobject'(xpath)
-
 WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Bid Product'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -38,5 +37,5 @@ WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Product Price'), [('pro
 
 WebUI.callTestCase(findTestCase('Pages/Bid Product/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Bid Product/Input Positive Product Price Suggest Message'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Popup Input Bid Price'), [:], FailureHandling.STOP_ON_FAILURE)
 

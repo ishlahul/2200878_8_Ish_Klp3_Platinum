@@ -6,6 +6,10 @@
    <elementGuidId>5d53c38e-395c-48be-aa94-2daada47bc00</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'bi bi-bell me-4 me-lg-0']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>i.bi.bi-bell.me-4.me-lg-0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>fcf3a134-2b63-49bd-9d0a-8322ef3bdedb</webElementGuid>
+      <webElementGuid>552106e9-2800-4d72-84ab-a39b137f1f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bi bi-bell me-4 me-lg-0</value>
-      <webElementGuid>e8869f8d-f6db-488d-a7d4-23c7648642f8</webElementGuid>
+      <webElementGuid>ed471834-828e-4d35-b3b7-8e20919826ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item me-0 me-lg-2 fs-5 d-block d-xl-none position-relative&quot;]/a[@class=&quot;nav-link d-flex align-items-center&quot;]/i[@class=&quot;bi bi-bell me-4 me-lg-0&quot;]</value>
-      <webElementGuid>e3b10f36-75a9-46b6-a439-2733d3354b79</webElementGuid>
+      <webElementGuid>cdc9b9c4-787e-4b74-b0ce-6214dc134ea8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
-      <webElementGuid>c454759d-fdb1-4623-9bf8-1d0cb3475b5a</webElementGuid>
+      <webElementGuid>96c31f07-3888-4f48-a709-0c257147061d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/i</value>
-      <webElementGuid>41403562-f12c-4640-8acd-ca7c5788d26c</webElementGuid>
+      <webElementGuid>ea0a4380-c51b-4c46-92c2-269ed7daab75</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
