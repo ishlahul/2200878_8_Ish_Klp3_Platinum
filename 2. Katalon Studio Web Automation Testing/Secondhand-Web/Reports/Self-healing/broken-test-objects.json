@@ -2,6 +2,12 @@
   "brokenTestObjects": [
     {
       "approved": true,
+<<<<<<< HEAD
+      "testObjectId": "Object Repository/Page_offers/button_Terima",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tolak\u0027])[1]/following::label[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ditawar Rp 4.000.000\u0027])[1]/following::label[2]",
+=======
       "testObjectId": "Object Repository/Page_HomeCreateAcc/a_Masuk",
       "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/a",
       "brokenLocatorMethod": "XPATH",
@@ -46,6 +52,7 @@
       "brokenLocator": "//*[@class \u003d \u0027btn btn-primary\u0027 and @href \u003d \u0027/users/sign_in\u0027]",
       "brokenLocatorMethod": "BASIC",
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bulan RamadhanBanyak diskon!\u0027])[1]/preceding::a[1]",
+>>>>>>> 079d2a5d6e1a4665804d20261dc999380592e69d
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
