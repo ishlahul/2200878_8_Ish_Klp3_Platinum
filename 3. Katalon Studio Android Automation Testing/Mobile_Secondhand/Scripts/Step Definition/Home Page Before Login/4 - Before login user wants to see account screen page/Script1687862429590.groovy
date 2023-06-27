@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/hlink_Daftar'))
+WebUI.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/button_Masuk'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/textfield_Email'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Login/textfield_Password'))
+WebUI.callTestCase(findTestCase('Pages/Akun Saya Before Login/Verify Content Akun Saya Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

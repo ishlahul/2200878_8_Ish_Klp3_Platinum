@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/hlink_Daftar'))
+Mobile.verifyElementVisible(findTestObject('Page_Regis/android.widget.Button - Daftar'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/button_Masuk'))
+Mobile.verifyElementVisible(findTestObject('Page_Regis/android.widget.EditText - Masukkan nama lengkap'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/textfield_Email'))
+Mobile.verifyElementVisible(findTestObject('Page_Regis/android.widget.EditText - Contoh 08123456789'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/textfield_Password'))
+Mobile.verifyElementVisible(findTestObject('Page_Regis/android.widget.EditText - Masukkan kota'), 0)
 
