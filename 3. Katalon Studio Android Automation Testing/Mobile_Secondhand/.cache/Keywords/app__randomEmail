@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "D85E1A25F96FB74CACCE1A82F99E9F01",
+  "keywordFileContentHash": "FA53A6BAEB733EC252C91A590E16C992",
   "keywordClasses": [
     {
-      "name": "custom.randomEmail",
+      "name": "app.randomEmail",
       "keywordMethods": [
         {
           "name": "getEmail",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

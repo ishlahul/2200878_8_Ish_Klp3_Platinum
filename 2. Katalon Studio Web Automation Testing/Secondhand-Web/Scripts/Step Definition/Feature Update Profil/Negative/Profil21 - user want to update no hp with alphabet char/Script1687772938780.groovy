@@ -35,5 +35,5 @@ WebUI.callTestCase(findTestCase('Pages/Update Profil/input no handphone'), [('up
 
 WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
 
