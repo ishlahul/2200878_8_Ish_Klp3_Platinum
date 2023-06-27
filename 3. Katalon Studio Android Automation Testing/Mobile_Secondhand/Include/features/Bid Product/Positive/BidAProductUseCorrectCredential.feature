@@ -27,8 +27,8 @@ Feature: Check the Product Purchase as a Buyer Functionality
     When user tap on button Saya Tertarik dan Ingin Nego
     And user fill in popup text box Harga Tawar with <price>
     And user tap on button Kirim
-    Then user should see popup success <message>
+    Then user successfull bid a product
 
     Examples: 
-      | price | message         |
-      |  5000 | Success Message |
+      | price |
+      |  5000 |

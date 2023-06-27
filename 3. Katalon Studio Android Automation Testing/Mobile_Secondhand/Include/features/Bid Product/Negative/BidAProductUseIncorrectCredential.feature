@@ -27,12 +27,12 @@ Feature: Check the Product Purchase as a Buyer Functionality
     When user tap on button Saya Tertarik dan Ingin Nego
     And user fill in popup text field Harga Tawar with invalid <price>
     And user tap on button Kirim
-    Then user should see popup warning <message>
+    Then user cannot bid a product and see popup warning <message>
 
     Examples: 
-      | price        | message         |
-      | -50000       | Warning Message |
-      | 0            | Warning Message |
-      | sepuluh ribu | Warning Message |
-      | 1000+_*"     | Warning Message |
-      |              | Warning Message |
+      | price                          | message                        |
+      |                        -560000 | Use postive numeric character  |
+      |                              0 | Harga tawar tidak boleh kosong |
+      | Seratus lima puluh ribu rupiah | Warning Message                |
+      | !@~$%^&()_+-={[}]:;"'><,.?/    | Warning Message                |
+      |                                | Harga tawar tidak boleh kosong |
