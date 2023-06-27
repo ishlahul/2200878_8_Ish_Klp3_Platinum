@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create42 - User want to create acc with empty kota</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40afed77-804b-4c0e-a55a-26e35be63e4e</testCaseGuid>
+</TestCaseEntity>

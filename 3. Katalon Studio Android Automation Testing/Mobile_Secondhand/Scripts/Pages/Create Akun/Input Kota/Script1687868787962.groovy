@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan kota'), kota, 0)
+

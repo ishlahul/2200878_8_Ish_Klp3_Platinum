@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create40 - User want to create acc with empty pass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>754b7b7f-f1d0-4fbf-9755-edbf2b5df0c9</testCaseGuid>
+</TestCaseEntity>

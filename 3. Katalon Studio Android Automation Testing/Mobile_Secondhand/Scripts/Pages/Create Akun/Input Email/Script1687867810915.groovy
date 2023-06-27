@@ -17,3 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String mail = CustomKeywords."custom.randomEmail.getEmail"('jeno' , 'yopmail.com')
+Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan email'), mail, 0)
+
