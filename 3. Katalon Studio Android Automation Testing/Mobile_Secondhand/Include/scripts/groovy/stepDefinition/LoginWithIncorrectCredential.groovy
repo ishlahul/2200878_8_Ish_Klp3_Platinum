@@ -51,13 +51,11 @@ class LoginWithIncorrectCredential {
 	 println("/n I am Inside openApp")
 	 Mobile.startExistingApplication('id.binar.fp.secondhand')
 	 }
-	 
 	 @And("user tap on menu button Akun")
 	 def tapNavigationBarAkun() {
 	 println("/n I am Inside tapNavigationBarAkun")
 	 Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 	 }
-	 
 	 @And("user tap on button Masuk")
 	 def navigateToLoginPage() {
 	 println("/n I am Inside navigateToLoginPage")
