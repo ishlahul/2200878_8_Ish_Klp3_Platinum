@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create46 - User want to createacc with pass less than 6char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7623afe-3da6-4da6-85a0-1eb7049b9acc</testCaseGuid>
+</TestCaseEntity>
