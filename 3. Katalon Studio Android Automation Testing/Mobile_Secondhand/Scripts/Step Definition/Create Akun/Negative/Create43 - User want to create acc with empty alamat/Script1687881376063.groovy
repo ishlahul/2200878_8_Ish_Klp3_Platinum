@@ -17,29 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Tap Button Masuk Akun Saya'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Button Masuk Akun Saya'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Tap Daftar Text View'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Daftar Text View'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Nama'), [('nama_user') : 'Jeno'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nama'), [('nama_user') : 'Jeno'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Email Neg TC'), [('email_user') : 'jenolee@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Email Neg TC'), [('email_user') : 'jenolee@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Password'), [('password') : 'jeno1234'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Password'), [('password') : 'jeno1234'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Nomor Hp'), [('nomor_hp') : '089823042304'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nomor Hp'), [('nomor_hp') : '089823042304'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Kota'), [('kota') : 'Semarang'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Kota'), [('kota') : 'Semarang'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Alamat'), [('alamat') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Alamat'), [('alamat') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Sudah punya akun?', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Akun/Verify alamat empty'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Create Akun/Verify alamat empty'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
 
