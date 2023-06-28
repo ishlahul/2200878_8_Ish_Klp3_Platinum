@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Page_Home Before Login/text_diskon'), 10)
+WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/text_diskon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/text_Detail Diskon'), FailureHandling.STOP_ON_FAILURE)
 

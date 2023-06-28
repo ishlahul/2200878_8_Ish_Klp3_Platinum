@@ -17,9 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Page_Home Before Login/hlink_Next'), 0)
-
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Hyperlink Next'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Verify Second Page'), [:], FailureHandling.STOP_ON_FAILURE)
-

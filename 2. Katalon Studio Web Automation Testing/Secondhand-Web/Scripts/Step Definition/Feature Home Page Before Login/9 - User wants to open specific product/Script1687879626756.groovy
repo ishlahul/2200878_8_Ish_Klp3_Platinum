@@ -25,5 +25,5 @@ def xpath = ('//div[@id=products]/div[' + intindex) + ']'
 
 WebUI.click(findTestObject('Object Repository/Page_Home Before Login/index_product', [('index') : intindex]))
 
-WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Product Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

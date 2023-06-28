@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Page_Home Before Login/hlink_Next'), 0)
+WebUI.verifyElementVisible(findTestObject('Page_Bid Product/button_Bidproduct'))
 
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Hyperlink Next'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Productname'))
 
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Verify Second Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Bid Product/text_Deskipsi'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Home Before Login/button_Masuk_homepage'))
 
