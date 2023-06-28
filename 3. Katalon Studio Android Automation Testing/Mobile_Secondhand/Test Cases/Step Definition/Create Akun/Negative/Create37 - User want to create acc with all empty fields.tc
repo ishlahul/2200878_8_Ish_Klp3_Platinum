@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create37 - User want to create acc with all empty fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f19bba8d-ff02-4c0d-9a9b-5ed015763d95</testCaseGuid>
+</TestCaseEntity>
