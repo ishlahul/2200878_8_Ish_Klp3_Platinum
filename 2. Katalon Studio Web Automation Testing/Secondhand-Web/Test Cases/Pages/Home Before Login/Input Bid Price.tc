@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Bid Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7862e5f-19c4-4ea4-ae1a-78d85f0a0e1c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36f1512a-cfc4-47a3-abe3-f0b91eb54d62</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36f1512a-cfc4-47a3-abe3-f0b91eb54d62</id>
+      <masked>false</masked>
+      <name>bidPrice</name>
+   </variable>
+</TestCaseEntity>
