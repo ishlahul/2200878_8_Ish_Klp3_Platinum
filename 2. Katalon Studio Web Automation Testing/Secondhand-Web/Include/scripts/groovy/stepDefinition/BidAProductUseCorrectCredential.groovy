@@ -61,7 +61,7 @@ class BidAProductUseCorrectCredential {
 	def navigateToProductPage() {
 		println("/n I am Inside navigateToProductPage")
 
-		String intindex = '1'
+		String intindex = '5'
 
 		println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
 

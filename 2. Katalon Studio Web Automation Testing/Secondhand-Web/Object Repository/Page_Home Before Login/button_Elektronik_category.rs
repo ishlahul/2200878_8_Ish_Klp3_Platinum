@@ -6,12 +6,15 @@
    <elementGuidId>97b20c42-2a82-4628-9ed4-289c56889ad7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/?category_id=4']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='LNP_5749'])[1]/preceding::a[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>69833e35-9e4c-463e-a00c-2660fbeb636a</webElementGuid>
+      <webElementGuid>92064ac8-87bb-4679-9338-e338a7addfc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false</value>
-      <webElementGuid>57f7347b-1efe-4f1c-a9b4-ad6926352394</webElementGuid>
+      <webElementGuid>e2739969-7ee5-4dba-979b-5cd563039968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/?category_id=4</value>
-      <webElementGuid>c7db28be-67d6-46e4-9e09-1fc966ccb426</webElementGuid>
+      <webElementGuid>f571ae98-0c37-427e-899d-2ce36a1a8fc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +52,7 @@
         
         Elektronik
 </value>
-      <webElementGuid>4848d619-40e3-4f51-8395-a3e8e0de01c8</webElementGuid>
+      <webElementGuid>24241bfb-163d-42ff-b9e6-1b3e1e35eb1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/nav[@class=&quot;nav row gap-4 px-2 px-lg-0&quot;]/a[@class=&quot;btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false&quot;]</value>
-      <webElementGuid>b0400305-db73-4b59-b602-c063af8b1eb7</webElementGuid>
+      <webElementGuid>f2fd11a2-8906-4b05-bff2-8238593b8ba3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LNP_5749'])[1]/preceding::a[2]</value>
-      <webElementGuid>3ca47009-92f5-48e9-97c6-e79797f13c46</webElementGuid>
+      <webElementGuid>04880618-b46b-454e-9b72-41d89c250e85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Elektronik']/parent::*</value>
-      <webElementGuid>cc715ad7-0d2a-4402-99bf-e993c3c8d73b</webElementGuid>
+      <webElementGuid>c016327d-8151-4785-9d20-bcc7601b9ed8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +84,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?category_id=4')]</value>
-      <webElementGuid>c305a1a0-daab-426b-bd45-d47444df5106</webElementGuid>
+      <webElementGuid>5683ff44-037c-47f9-ab59-ecb31588c8e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[5]</value>
-      <webElementGuid>1f789dda-2f28-4c69-9f51-6a6db1558edc</webElementGuid>
+      <webElementGuid>25304a06-f08d-46f1-a070-3bc076060327</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +106,6 @@
         
         Elektronik
 ')]</value>
-      <webElementGuid>4e5f66d7-984e-4d02-8f18-4f3815e4d321</webElementGuid>
+      <webElementGuid>132c5c81-fac5-45e5-bc83-3e50360de002</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

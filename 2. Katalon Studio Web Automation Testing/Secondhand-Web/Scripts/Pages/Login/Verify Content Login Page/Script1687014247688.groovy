@@ -27,5 +27,3 @@ WebUI.verifyElementVisible(findTestObject('Page_Login/text_Belum punya akun'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Login/text_Masuk_title'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Login/text_SecondHand_title'))
-

@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>a.next_page</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'next_page' and (text() = 'Next →' or . = 'Next →')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>90058ffb-3317-4a7e-96ef-1060db51e5c0</webElementGuid>
+      <webElementGuid>e73628ad-f0af-4f68-86f2-c7c9b713b4e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>next_page</value>
-      <webElementGuid>5f11d64a-13b4-4b49-9367-0a1bf7df526f</webElementGuid>
+      <webElementGuid>a193d10f-5382-4e24-8642-6d6990857788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>next</value>
-      <webElementGuid>2fcde6c9-eded-4f95-9df5-7501a023f783</webElementGuid>
+      <webElementGuid>10bc0f67-e530-42cd-9955-9bf0a89a7ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/?page=2</value>
-      <webElementGuid>346c3229-26f9-49d5-8adc-153ffacb1404</webElementGuid>
+      <webElementGuid>5487a7a5-df4f-4a2d-8e2e-1edcbfa27e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Next →</value>
-      <webElementGuid>4df6757f-d793-406a-8ef9-ce17086256e1</webElementGuid>
+      <webElementGuid>6b566774-fe85-4ce2-aec2-401d6cb20b07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;d-flex gap-4 align-items-center justify-content-center my-5&quot;]/a[@class=&quot;next_page&quot;]</value>
-      <webElementGuid>e44e7811-b94e-4b48-94d1-bf665ee1e716</webElementGuid>
+      <webElementGuid>faa4f133-5ba2-4863-813c-fba58b3f4641</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='products']/div[11]/a</value>
-      <webElementGuid>46dcd550-871c-4ef2-bfb7-2143a6f0d31b</webElementGuid>
+      <webElementGuid>09893591-51d5-49da-83ca-dac0603c9986</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Next →')]</value>
-      <webElementGuid>fdf68983-84c7-4f7c-a100-701f851ba439</webElementGuid>
+      <webElementGuid>0c1217c9-acb1-4050-8776-a8daba0c2db3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::a[1]</value>
-      <webElementGuid>b219287d-86dd-4e50-9e46-5ccf9bf88171</webElementGuid>
+      <webElementGuid>cc70a2d0-5866-4864-8ceb-83f4c18bd411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 200.000'])[1]/following::a[1]</value>
-      <webElementGuid>9d12484f-84c8-4162-96e0-84549611472e</webElementGuid>
+      <webElementGuid>3f6b7a1e-4e5b-4a73-b367-6df5ac6e76e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::a[1]</value>
-      <webElementGuid>c6974f6e-4b11-4a4f-b115-7209c062059f</webElementGuid>
+      <webElementGuid>2b9495d5-cab2-427f-ab99-0916f5f6614c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>cdf9d133-c112-471f-9e06-5cff79080e9b</webElementGuid>
+      <webElementGuid>f9433260-76b2-4152-a4d8-e2573d215eff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Next →']/parent::*</value>
-      <webElementGuid>ce9f20aa-bd4b-471f-9118-0a21929fb6f5</webElementGuid>
+      <webElementGuid>61c40703-0fa1-4ee8-9c81-a39fd0c5fe19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/?page=2')]</value>
-      <webElementGuid>8dde0c2f-8994-44bd-b755-6bb7a5b7d000</webElementGuid>
+      <webElementGuid>d5c17e22-2912-4400-9fc0-d480e69803a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/a</value>
-      <webElementGuid>e008108a-655a-470c-a2ac-e424c3d4719b</webElementGuid>
+      <webElementGuid>f480b8af-c41d-4b83-81b8-41543e530ed6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/?page=2' and (text() = 'Next →' or . = 'Next →')]</value>
-      <webElementGuid>b4b7a041-64f7-4056-ad62-bbf9d4b30b94</webElementGuid>
+      <webElementGuid>4c87bedf-6e0c-46e4-a5b2-8fb72f9a6b2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

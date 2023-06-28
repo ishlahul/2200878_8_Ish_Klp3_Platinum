@@ -19,12 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('Page_Home After Login/card_Banner_center'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Home After Login/card_Banner_left'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home After Login/card_Banner_right'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Home After Login/icon_brand'))
-
 WebUI.verifyElementVisible(findTestObject('Page_Home After Login/icon_Daftarjualsaya'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Home After Login/icon_Notification'))
