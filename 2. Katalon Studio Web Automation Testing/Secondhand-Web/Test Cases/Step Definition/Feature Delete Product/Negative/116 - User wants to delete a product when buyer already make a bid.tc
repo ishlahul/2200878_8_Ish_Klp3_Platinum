@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>116 - User wants to delete a product when buyer already make a bid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0b44f2d-3615-4b54-ba86-2770ae6f04fb</testCaseGuid>
+</TestCaseEntity>

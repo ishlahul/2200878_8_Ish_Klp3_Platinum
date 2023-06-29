@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>65 - User wants to add new product use numeric character at product name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>991b79a6-f082-4785-9404-db8cf786b5e9</testCaseGuid>
+</TestCaseEntity>
