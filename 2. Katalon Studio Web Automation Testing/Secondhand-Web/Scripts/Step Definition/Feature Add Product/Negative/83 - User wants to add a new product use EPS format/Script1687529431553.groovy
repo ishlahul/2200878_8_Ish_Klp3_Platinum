@@ -33,7 +33,9 @@ WebUI.callTestCase(findTestCase('Pages/Add Product/Choose Product Category'), [(
 
 WebUI.callTestCase(findTestCase('Pages/Add Product/Input Product Description'), [('product_desc') : 'ini barang'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Add Product/Upload Product'), [('upload_file') : 'sepeda.eps'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Add Product/Click Submit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Add_Product/Verify_Deskripsi'))
+WebUI.callTestCase(findTestCase('Pages/Add Product/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 

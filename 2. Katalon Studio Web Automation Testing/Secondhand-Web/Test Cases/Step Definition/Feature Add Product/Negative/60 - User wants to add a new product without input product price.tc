@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>60 - User wants to add a new product without input product price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39f6e7a3-0c0e-4274-9a39-2e1a4b3a7b59</testCaseGuid>
+</TestCaseEntity>
