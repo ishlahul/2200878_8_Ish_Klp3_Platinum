@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>at product price
+note: successfully created, should not be able</description>
+   <name>73 - User wants to add new product use negative numeric character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3003d596-a919-489b-9a84-1e2126378007</testCaseGuid>
+</TestCaseEntity>
