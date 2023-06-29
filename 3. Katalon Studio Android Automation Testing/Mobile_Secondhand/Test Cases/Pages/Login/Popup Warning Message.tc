@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Popup Warning Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f35feb90-a476-41a2-a389-2b19eb5ceeda</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76dcc74d-4a9a-4466-a940-f4d3ad9b639f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76dcc74d-4a9a-4466-a940-f4d3ad9b639f</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

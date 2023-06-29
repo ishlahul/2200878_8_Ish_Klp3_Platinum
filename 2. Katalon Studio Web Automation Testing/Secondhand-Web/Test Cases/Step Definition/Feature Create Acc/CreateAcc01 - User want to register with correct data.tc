@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc01 - User want to register with correct data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95e9ffa0-6445-451b-a7f5-cb17aa4a26bf</testCaseGuid>
+</TestCaseEntity>

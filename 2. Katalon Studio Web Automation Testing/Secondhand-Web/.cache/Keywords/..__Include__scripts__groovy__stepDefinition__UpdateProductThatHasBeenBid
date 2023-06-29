@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "824CDCDE4E02136CB59E81E9530C05FF",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.UpdateProductThatHasBeenBid",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

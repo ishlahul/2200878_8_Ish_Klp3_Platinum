@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>192 - User wants to bid a product use empty character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b56c122b-6e8d-47c2-8c72-63cf3da3cab3</testCaseGuid>
+</TestCaseEntity>

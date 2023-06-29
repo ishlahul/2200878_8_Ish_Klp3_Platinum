@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc06 - User want to register with empty name fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a741ec82-ba62-4ddf-813f-935f54a97508</testCaseGuid>
+</TestCaseEntity>

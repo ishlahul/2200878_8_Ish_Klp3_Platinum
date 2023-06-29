@@ -1,0 +1,64 @@
+Login Wordpress
+    Input textbox: Email or username
+        - id="usernameOrEmail"
+        - name="usernameOrEmail"
+        - class="form-text-input"
+    Hyperlink: Persyaratan Layanan 
+        - href="https://wordpress.com/id/tos/"
+    Hyperlink: Kebijakan Privasi 
+        - href="https://automattic.com/privacy/"
+    Button: Lanjutkan
+        - class="button form-button is-primary"
+    Button: Lanjutkan dengan Google
+        - class="social-buttons__button button"
+        - class="social-icons social-icons__google social-icons--enabled"
+        - class="social-buttons__service-name"
+    Button: Lanjutkan dengan Apple
+        - class="social-buttons__button button"
+        - class="social-icons social-icons__apple social-icons--enabled"
+        - class="social-buttons__service-name"
+    Hyperlink: Buat Akun Baru
+        - href="/start?user_email="
+    Hyperlink: Kirimkan tautan login melalui email
+        - href="/log-in/link/id"
+    Hyperlink: Login melalui aplikasi seluler
+        - href="/log-in/qr/id"
+    Hyperlink: Kehilangan kata sandi Anda?
+        - href="https://id.wordpress.com/wp-login.php?action=lostpassword"
+    Hyperlink: Indonesia
+        - href="https://translate.wordpress.com/projects/wpcom/id/default/"
+
+Register Wordpress
+    Hyperlink: Gabung
+        - href="/log-in?redirect_to=https%3A%2F%2Fwordpress.com%2Fstart%2Fdomains%3Fuser_email%3D&signup_url=%2Fstart%2Fuser%3Fuser_email%3D"
+    Input textbox: Alamat email anda
+        - class="form-text-input signup-form__input"
+        - id="email"
+        - name="email"
+    Input textbox: Nama belakang
+        - class="form-text-input signup-form__input"
+        - id="username"
+        - name="username"
+    Input textbox: Pilih sebuah kata kunci
+        - class="form-password-input"
+        - class="form-text-input signup-form__input"
+        - id="password"
+        - name="password"
+    Hyperlink: Ketentuan Layanan (When User register use email)
+        - href="https://wordpress.com/tos/"
+    Hyperlink: Kebijakan Privasi (When User register use email)
+        - href="https://automattic.com/privacy/"
+    Button: buat akunmu
+        - class="button signup-form__submit form-button is-primary"
+    Button: Lanjutkan dengan Google
+        - class="social-buttons__button button"
+        - class="social-buttons__service-name"
+        - class="social-buttons__service-name"
+    Button: Lanjutkan dengan Apple
+        - class="social-buttons__button button"
+        - class="social-icons social-icons__apple social-icons--enabled"
+        - class="social-buttons__service-name"
+    Hyperlink: Ketentuan Layanan (When User register use Google or Apple)
+        - href="https://wordpress.com/tos/"
+    Hyperlink: Ketentuan Privasi (When User register use Google or Apple)
+        - href="https://automattic.com/privacy/"

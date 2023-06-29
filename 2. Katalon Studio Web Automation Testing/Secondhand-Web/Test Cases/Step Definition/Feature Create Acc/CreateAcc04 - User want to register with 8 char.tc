@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateAcc04 - User want to register with 8 char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce978b4a-bfc8-45e1-b5f5-17d46afc36ea</testCaseGuid>
+</TestCaseEntity>

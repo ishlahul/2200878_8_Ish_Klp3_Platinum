@@ -1,0 +1,25 @@
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+Test Cases/Add_product.tc
+
+.classpath/*
+.settings/*
+.project/*
+.chace/*
+*.gradle
+*.log

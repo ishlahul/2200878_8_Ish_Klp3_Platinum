@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tex_Message_Somethingwentwrong</name>
+   <tag></tag>
+   <elementGuidId>69568123-b182-4f37-a967-8ce1dc8285d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('We', &quot;'&quot;, 're sorry, but something went wrong.')])[1]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>00ef1ed4-3153-4dbf-a719-090f762e4f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>If you are the application owner check the logs for more information.</value>
+      <webElementGuid>bc969776-6b34-415c-a695-23cd39b9c720</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;rails-default-error-page&quot;]/div[@class=&quot;dialog&quot;]/p[1]</value>
+      <webElementGuid>9e82530d-91f5-4d6d-b378-6cd3ae742d03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('We', &quot;'&quot;, 're sorry, but something went wrong.')])[1]/following::p[1]</value>
+      <webElementGuid>cf7ababe-460d-46d1-b593-ee3217b2d736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='If you are the application owner check the logs for more information.']/parent::*</value>
+      <webElementGuid>56bd29e1-9961-4fda-9c55-23d8e0908344</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>a78613e0-2bf0-4294-87e4-4fc2b961191c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'If you are the application owner check the logs for more information.' or . = 'If you are the application owner check the logs for more information.')]</value>
+      <webElementGuid>cca636f0-b7b0-48ea-b097-caa81ad3bca2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
