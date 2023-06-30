@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil87 - User want to update no hp with less than 10char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0aa3ea8-be7b-4561-ba00-d178edad8dfe</testCaseGuid>
+</TestCaseEntity>

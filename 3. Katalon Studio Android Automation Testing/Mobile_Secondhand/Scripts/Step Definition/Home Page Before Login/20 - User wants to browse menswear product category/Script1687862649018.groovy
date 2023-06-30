@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.swipe(800, 779, 0, 779)
+
+WebUI.callTestCase(findTestCase('Pages/Home Before Login/Tap Button Pakaian Pria'), [:], FailureHandling.STOP_ON_FAILURE)
+

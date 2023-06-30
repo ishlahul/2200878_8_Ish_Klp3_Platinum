@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil81 - User want to update pass with empty newpass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a60626d7-c821-4bc8-8a53-cb5b163bd64a</testCaseGuid>
+</TestCaseEntity>
