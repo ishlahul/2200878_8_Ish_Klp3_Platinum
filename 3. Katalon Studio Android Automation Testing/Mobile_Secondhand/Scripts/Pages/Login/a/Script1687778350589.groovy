@@ -19,3 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.waitForElementPresent(findTestObject('Page_Login/testobject_Email.atau.kata.sandi.salah'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Page_Login/verify_Email.atau.kata.sandi.salah'), 0)
+
+errorText = Mobile.getText(findTestObject('Page_Login/verify_Email.atau.kata.sandi.salah'), 0)
+
+KeywordUtil.logInfo('Popup Warning Message : ' + errorText)
+
+Mobile.verifyMatch(errorText, expected, true)
+
