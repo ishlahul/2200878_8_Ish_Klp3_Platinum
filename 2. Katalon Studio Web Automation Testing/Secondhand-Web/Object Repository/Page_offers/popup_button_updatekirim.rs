@@ -10,11 +10,15 @@
          <value>(//input[@name='commit'])[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'commit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#statusModal8427 > div.modal-dialog.modal-dialog-centered > form.modal-content.px-4.py-2 > div.modal-footer.border-0 > input[name=&quot;commit&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>094e9d8d-b99e-45de-a69e-49a7b6b1d467</webElementGuid>
+      <webElementGuid>24ab7974-971a-4944-b3c2-ebd36afbf1a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>873cdc30-ffd6-4f58-88bf-aa3922e429a7</webElementGuid>
+      <webElementGuid>1ddc69e7-5ece-4af9-80bc-7095236f8ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>commit</value>
-      <webElementGuid>9e72b181-e6ae-410c-a2a5-b87aadc4795d</webElementGuid>
+      <webElementGuid>df412f6d-d144-4989-a6f8-87964c450897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Kirim</value>
-      <webElementGuid>f02ce724-b54f-43b1-8233-4f91520170f9</webElementGuid>
+      <webElementGuid>9d0c105e-4e9c-4a10-93c2-63d3725d2185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary p-3 w-100 rounded-4 fw-bold</value>
-      <webElementGuid>3b092366-1890-480e-8c5a-e5bfc3e6ad6e</webElementGuid>
+      <webElementGuid>66b6ebb1-0253-4b07-8314-cc26da008c1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>data-disable-with</name>
       <type>Main</type>
       <value>Kirim</value>
-      <webElementGuid>9a564228-58d7-4fea-9731-c7398d6a4974</webElementGuid>
+      <webElementGuid>d59c251b-67ed-48fd-ada2-fc0817b8695b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;statusModal8427&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-footer border-0&quot;]/input[@class=&quot;btn btn-primary p-3 w-100 rounded-4 fw-bold&quot;]</value>
-      <webElementGuid>b2a43773-bb66-4bd4-9268-0c5dbbc15cd8</webElementGuid>
+      <webElementGuid>95ec2104-ee72-49aa-819c-f45b1e5ed64b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='commit'])[2]</value>
-      <webElementGuid>81457074-e8c3-49db-92f9-4c9cb2ae9cb0</webElementGuid>
+      <webElementGuid>8fe8afed-3101-4ce5-b809-69b356304a89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='statusModal8427']/div/form/div[3]/input</value>
-      <webElementGuid>f8dd0147-13ce-4080-8782-6d31c176ce7a</webElementGuid>
+      <webElementGuid>95909d55-cfc0-43f4-812c-be659e749b70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/form/div[3]/input</value>
-      <webElementGuid>539a744a-1c29-4cfc-89a7-c66966fb6cb3</webElementGuid>
+      <webElementGuid>d9903da5-ab56-4f3d-8d87-782dd9cd2010</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'commit']</value>
-      <webElementGuid>01f09b0d-5315-4703-a47e-93ec616d166e</webElementGuid>
+      <webElementGuid>761b579a-ce83-4aa5-b224-639ad99d9172</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
