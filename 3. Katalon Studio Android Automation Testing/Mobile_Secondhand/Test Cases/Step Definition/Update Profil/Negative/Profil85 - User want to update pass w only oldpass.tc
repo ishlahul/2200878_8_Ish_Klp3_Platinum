@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil85 - User want to update pass w only oldpass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b057b0c3-4a54-4d1b-9bec-3975988a0c97</testCaseGuid>
+</TestCaseEntity>
