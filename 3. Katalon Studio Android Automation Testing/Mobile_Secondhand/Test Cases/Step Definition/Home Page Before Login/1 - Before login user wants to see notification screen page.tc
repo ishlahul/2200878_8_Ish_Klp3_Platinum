@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 - Before login user wants to see notification screen page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea5ca38e-823b-475c-949b-2324929fcb3f</testCaseGuid>
+</TestCaseEntity>

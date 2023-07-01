@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil83 - User want to update pass w incorrect confirmationpass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae1837a5-053b-4d4a-9cc6-e34a8c07c5b8</testCaseGuid>
+</TestCaseEntity>

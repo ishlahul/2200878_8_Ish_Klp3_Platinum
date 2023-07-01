@@ -21,12 +21,12 @@ Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], 
 
 Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : 'idris@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Login/Input Email'), [('email') : 'idrism@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
+Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
     FailureHandling.STOP_ON_FAILURE)
 

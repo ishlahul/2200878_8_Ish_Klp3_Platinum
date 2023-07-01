@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create44 - User want to create acc with invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dab5efcb-c424-4e92-b1e7-204a6a364d3a</testCaseGuid>
+</TestCaseEntity>

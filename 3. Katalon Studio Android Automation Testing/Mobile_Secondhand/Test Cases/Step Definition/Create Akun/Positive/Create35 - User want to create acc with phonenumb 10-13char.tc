@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create35 - User want to create acc with phonenumb 10-13char</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbecaf82-36e1-454d-9482-1bbc836062ef</testCaseGuid>
+</TestCaseEntity>

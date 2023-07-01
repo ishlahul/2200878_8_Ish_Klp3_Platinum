@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Suggest Message Bid Price Cannot Be Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbc4b1d5-94c3-40ca-be3a-83321a72c397</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08209018-6161-47dd-b7b0-6d52082eac45</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08209018-6161-47dd-b7b0-6d52082eac45</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

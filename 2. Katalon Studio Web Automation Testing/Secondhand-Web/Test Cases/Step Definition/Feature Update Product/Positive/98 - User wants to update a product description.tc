@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>use alphabet character</description>
+   <name>98 - User wants to update a product description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfbea89d-f4f4-47df-8d56-0ea80afa0b53</testCaseGuid>
+</TestCaseEntity>

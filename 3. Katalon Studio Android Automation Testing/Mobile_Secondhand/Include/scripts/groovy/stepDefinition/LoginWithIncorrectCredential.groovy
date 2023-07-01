@@ -46,25 +46,22 @@ import cucumber.api.java.en.When
 
 class LoginWithIncorrectCredential {
 	/*
-	@Given("user open the app Second Hand")
-	def openApp() {
-		println("/n I am Inside openApp")
-	}
-
-	@And("user tap on menu button Akun")
-	def tapNavigationBarAkun() {
-		println("/n I am Inside tapNavigationBarAkun")
-
-		Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("user tap on button Masuk")
-	def navigateToLoginPage() {
-		println("/n I am Inside navigateToLoginPage")
-
-		Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-	*/
+	 @Given("user open the app Second Hand")
+	 def openApp() {
+	 println("/n I am Inside openApp")
+	 Mobile.startExistingApplication('id.binar.fp.secondhand')
+	 }
+	 @And("user tap on menu button Akun")
+	 def tapNavigationBarAkun() {
+	 println("/n I am Inside tapNavigationBarAkun")
+	 Mobile.callTestCase(findTestCase('Pages/Home Before Login/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+	 }
+	 @And("user tap on button Masuk")
+	 def navigateToLoginPage() {
+	 println("/n I am Inside navigateToLoginPage")
+	 Mobile.callTestCase(findTestCase('Pages/Akun Saya Before Login/Tap Button Masuk At Akun Saya Page'), [:], FailureHandling.STOP_ON_FAILURE)
+	 }
+	 */
 
 	@When ("user fill in text field email with invalid (.*)")
 	def enterInvalidEmail(String email) {
@@ -83,16 +80,31 @@ class LoginWithIncorrectCredential {
 	}
 
 	/*
-	@And ("user tap on button Masuk at Login Screen Page")
-	def tapButtonLoginAtLoginPage() {
-		println("/n I am Inside tapButtonLoginAtLoginPage")
-
-		Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-	*/
+	 @And ("user tap on button Masuk at Login Screen Page")
+	 def tapButtonLoginAtLoginPage() {
+	 println("/n I am Inside tapButtonLoginAtLoginPage")
+	 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	 }
+	 */
 
 	@Then ("user should see popup (.*)")
 	def popupWarningMessage(String message) {
-		
+		println("n/ I am inside popupWarningMessage")
+
+		if (message == 'Email atau kata sandi salah') {
+			Mobile.callTestCase(findTestCase('Pages/Login/Popup Wrong Email or Password'), [:], FailureHandling.STOP_ON_FAILURE)
+		}
+		else if (message == 'Email tidak boleh kosong') {
+			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Email'), [('expected') : 'Email tidak boleh kosong', ('emptyEmail') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
+		}
+		else if (message == 'Password  tidak boleh kosong') {
+			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
+    FailureHandling.STOP_ON_FAILURE)
+		}
+		else if (message == 'Email tidak valid') {
+			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Invalid Email'), [('expected') : 'Email tidak valid'], FailureHandling.STOP_ON_FAILURE)
+		}
+		Mobile.closeApplication()
 	}
 }

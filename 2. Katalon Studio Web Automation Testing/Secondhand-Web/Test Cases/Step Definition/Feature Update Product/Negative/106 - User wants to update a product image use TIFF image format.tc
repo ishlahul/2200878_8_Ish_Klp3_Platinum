@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>update product using alphabet character</description>
+   <name>106 - User wants to update a product image use TIFF image format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfae4a64-77a9-4e1a-ba56-b5deddb84434</testCaseGuid>
+</TestCaseEntity>

@@ -30,5 +30,5 @@ Feature: Check the Login Functionality
     Then user should see Akun Saya Page After Login
 
     Examples: 
-      | email           | password  |
-      | idris@gmail.com | binar1234 |
+      | email            | password  |
+      | idrism@gmail.com | binar1234 |

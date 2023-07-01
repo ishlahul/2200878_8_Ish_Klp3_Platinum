@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>masuk ke halaman detail tambah produk</description>
+   <name>Tap icon add product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee7bf9dd-0209-41d0-ba85-a3016c940733</testCaseGuid>
+</TestCaseEntity>

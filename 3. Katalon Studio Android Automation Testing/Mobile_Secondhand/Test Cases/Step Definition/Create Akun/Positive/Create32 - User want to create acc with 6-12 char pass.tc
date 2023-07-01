@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create32 - User want to create acc with 6-12 char pass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6f201a5-dc41-49e9-b8a9-34b5a78d3f4b</testCaseGuid>
+</TestCaseEntity>

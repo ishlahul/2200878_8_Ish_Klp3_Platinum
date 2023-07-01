@@ -49,6 +49,7 @@ class LoginWithCorrectCredential {
 	@Given("user open the app Second Hand")
 	def openApp() {
 		println("/n I am Inside openApp")
+		Mobile.startExistingApplication('id.binar.fp.secondhand')
 	}
 
 	@And("user tap on menu button Akun")
@@ -93,5 +94,6 @@ class LoginWithCorrectCredential {
 		println("/n I am Inside AkunSayaPageAfterLogin")
 
 		Mobile.callTestCase(findTestCase('Pages/Akun Saya After Login/Verify Content Akun Saya After Login'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.closeApplication()
 	}
 }

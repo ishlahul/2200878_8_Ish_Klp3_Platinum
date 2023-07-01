@@ -48,7 +48,7 @@ class UpdateProfil_Invalid {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	
+
 	@Given("user login on secondhand web")
 	public void user_login_on_secondhand_web() {
 		WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Login Home Page'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -57,48 +57,52 @@ class UpdateProfil_Invalid {
 		WebUI.callTestCase(findTestCase('Pages/Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 	}
-	
+
 	@When("user click profil icon")
 	public void user_click_profil_icon() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click icon profil'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click avatar'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-		
+
 	}
-	
+
 	@When("user not choose kota  option")
 	public void user_not_choose_kota_option() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/select kota user'), ['kota' : '','isRegex' : true], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-		
+
 	}
-	
+
 	@When("user click simpan")
 	public void user_click_simpan() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/click simpan button'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-		
+
 	}
-	
+
 	@Then("user will see a warning message please select an item on a list")
 	public void user_will_see_a_warning_message_please_select_an_item_on_a_list() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Page_AfterCreateAcc/back arrow'))
 		WebUI.click(findTestObject('Page_HomeCreateAcc/i_Keluar_bi bi-person me-4 me-lg-0'))
 		WebUI.click(findTestObject('Page_HomeCreateAcc/button_Keluar'))
 		// Write code here that turns the phrase above into concrete actions
 	}
-	
+
 	@When("user input nomor with (.*)")
 	public void user_input_nomor_with_harusnyagabisa(String nomor) {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/input no handphone'), [('update_nomor') : nomor], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
-		
+
 	}
-	
+
 	@Then("user will see a warning please input phone number with a valid format")
 	public void user_will_see_a_warning_please_input_phone_number_with_a_valid_format() {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
-		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
 		
+		// Write code here that turns the phrase above into concrete actions
+
+
+
 	}
 }

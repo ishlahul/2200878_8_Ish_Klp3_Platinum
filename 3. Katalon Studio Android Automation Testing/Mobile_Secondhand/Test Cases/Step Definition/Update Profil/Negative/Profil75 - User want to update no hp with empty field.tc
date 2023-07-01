@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profil75 - User want to update no hp with empty field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd1f225b-9946-4463-a414-623f2fd7695e</testCaseGuid>
+</TestCaseEntity>

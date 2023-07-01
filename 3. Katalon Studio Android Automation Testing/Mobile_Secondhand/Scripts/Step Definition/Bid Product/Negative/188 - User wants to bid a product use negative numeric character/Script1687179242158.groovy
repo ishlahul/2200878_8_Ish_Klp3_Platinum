@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.callTestCase(findTestCase('Step Definition/Login/Positive/64 - User wants to login with correct credential'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Akun Saya After Login/Tap Icon Beranda'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Home After Login/Tap Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Product/Tap Button Saya Tertarik dan Ingin Nego'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Product/Input Product Price'), [('productPrice') : '-25000'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Product/Tap Button Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('Pages/Product/Verify Button Saya Tertarik dan Ingin Nego'), [:], FailureHandling.STOP_ON_FAILURE)
+

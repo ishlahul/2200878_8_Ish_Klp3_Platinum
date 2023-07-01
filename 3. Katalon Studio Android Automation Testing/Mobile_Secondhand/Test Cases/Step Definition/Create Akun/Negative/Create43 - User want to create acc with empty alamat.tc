@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create43 - User want to create acc with empty alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9da0ee31-654a-4cc6-b867-58c374b84cce</testCaseGuid>
+</TestCaseEntity>
