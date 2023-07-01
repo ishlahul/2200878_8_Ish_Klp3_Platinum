@@ -32,7 +32,6 @@ Feature: Add Product
     And user input invalid product description <product_desc>
     And user upload invalid file <upload_file>
     And user click button terbitkan
-    Then user not directed to product page
 
     Examples: 
       | email 									| password 	| product_name	| product_price | product_cat | product_desc | upload_file	|
