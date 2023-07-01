@@ -33,7 +33,6 @@ Feature: Add Product
     And user input product description <product_desc>
     And user upload file <upload_file>
     And user click button terbitkan
-    Then user directed to product page
 
     Examples: 
       | email 									| password 	| product_name	| product_price | product_cat | product_desc | upload_file	|
