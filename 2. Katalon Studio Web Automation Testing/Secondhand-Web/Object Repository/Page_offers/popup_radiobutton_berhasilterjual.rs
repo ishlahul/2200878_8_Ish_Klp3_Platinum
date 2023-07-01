@@ -6,15 +6,19 @@
    <elementGuidId>b25fc6cf-eb2e-4e90-8edb-8e28b611f29a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='offer_status_finished'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#statusModal8427 > div.modal-dialog.modal-dialog-centered > form.modal-content.px-4.py-2 > div.modal-body > div.form-check > #offer_status_finished</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'offer[status]' and @id = 'offer_status_finished']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='offer_status_finished'])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7ed66f36-bf2c-4091-a211-33ac530bd072</webElementGuid>
+      <webElementGuid>b62e42f1-bde5-4c24-a12e-8541c351a40f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input me-2</value>
-      <webElementGuid>d885c19e-61b2-4888-a50c-bef64a108764</webElementGuid>
+      <webElementGuid>ec76ec99-309b-44ca-80e3-615435569d85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>b23c2fe3-aaee-4a5b-bc76-7a8f88ba468f</webElementGuid>
+      <webElementGuid>6ca5a730-c273-4482-b7c4-7aacaeaaa923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>value</name>
       <type>Main</type>
       <value>finished</value>
-      <webElementGuid>d2e6747a-402c-459b-8901-35479580977d</webElementGuid>
+      <webElementGuid>4955c488-9c23-4aa8-b415-e58ef2227606</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>name</name>
       <type>Main</type>
       <value>offer[status]</value>
-      <webElementGuid>7e456ad3-8afc-4c54-8ff0-054742c18370</webElementGuid>
+      <webElementGuid>6ae0ee93-1949-4c73-a2f3-8795bea1bdbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>offer_status_finished</value>
-      <webElementGuid>2809b85e-8731-4f74-9792-7fe398888057</webElementGuid>
+      <webElementGuid>c9cc154f-c538-4dea-86ee-f98fde8d192b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;statusModal8427&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-check&quot;]/input[@id=&quot;offer_status_finished&quot;]</value>
-      <webElementGuid>95cdeeaf-9527-4cf9-8c0b-6f96cae98319</webElementGuid>
+      <webElementGuid>592ceb46-ffc7-48e2-bdb7-537755d9bcd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@id='offer_status_finished'])[2]</value>
-      <webElementGuid>d307ae09-e94e-41bb-bc6c-1c8f1ddda3a1</webElementGuid>
+      <webElementGuid>c312a6a1-d249-4b6f-ab94-87257b62fe34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='statusModal8427']/div/form/div[2]/div/input</value>
-      <webElementGuid>c4d2b8a3-be9c-46c9-88bb-881924f8dba1</webElementGuid>
+      <webElementGuid>0cfe996e-30fd-4f35-93bd-df3865dc82e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/form/div[2]/div/input</value>
-      <webElementGuid>be191928-d51e-4bb7-a89d-68a5c7ff83c5</webElementGuid>
+      <webElementGuid>5a574b9a-812d-4f61-b4e0-daeccbe2088a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'offer[status]' and @id = 'offer_status_finished']</value>
-      <webElementGuid>4827d05a-bb81-4017-b040-e32d13d820b2</webElementGuid>
+      <webElementGuid>72911014-55d0-4e60-bb9a-e76db95d3d87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

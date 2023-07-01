@@ -44,7 +44,7 @@ import cucumber.api.java.en.When
 
 
 
-class UpdateProductThatHasBeenBid {
+class AcceptStatusBuyer {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
@@ -58,18 +58,19 @@ class UpdateProductThatHasBeenBid {
 		WebUI.callTestCase(findTestCase('Pages/Home After Login/Click Icon Notification'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user click penawaran product")
-	def clickproduct() {
-		WebUI.callTestCase(findTestCase('Pages/Notification/Click Penawaran Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+	@When("user click button status")
+	def clickbuttonstatus() {
+		WebUI.callTestCase(findTestCase('Pages/Offers/Click Button Status'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@And("user click button terima")
-	def buttonterima() {
-		WebUI.callTestCase(findTestCase('Pages/Offers/Click Button Terima'), [:], FailureHandling.STOP_ON_FAILURE)
+	@And("user click radiobutton berhasil terjual")
+	def clickradiobutton() {
+		WebUI.callTestCase(findTestCase('Pages/Offers/Click RadioButton Berhasil Terjual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("user successfull accept the offers")
-	def acceptoffers() {
-		WebUI.callTestCase(findTestCase('Pages/Offers/Verify Accept Offers'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("user click button kirim")
+	def clickbuttonkirim() {
+		WebUI.callTestCase(findTestCase('Pages/Offers/Click Update Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

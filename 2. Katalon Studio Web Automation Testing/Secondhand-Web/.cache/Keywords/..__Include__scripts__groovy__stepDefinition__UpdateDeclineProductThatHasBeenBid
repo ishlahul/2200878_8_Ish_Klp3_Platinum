@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B01E0FE241F67268CD7DF5210BB28325",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.UpdateDeclineProductThatHasBeenBid",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
