@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Page_Beranda Before Login/image_Banner'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Page_Beranda Before Login/text_Diskon'))
+

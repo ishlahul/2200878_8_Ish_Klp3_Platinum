@@ -120,7 +120,7 @@
       <guid>48fc9804-64bd-4766-bdc3-c98f0182a541</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step Definition/Home Page Before Login/29 User wants to browse womens clothes product category</testCaseId>
+      <testCaseId>Test Cases/Step Definition/Home Page Before Login/29 - User wants to browse womens clothes product category</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

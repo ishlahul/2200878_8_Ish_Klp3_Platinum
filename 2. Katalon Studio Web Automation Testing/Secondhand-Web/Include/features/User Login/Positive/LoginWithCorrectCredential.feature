@@ -29,5 +29,5 @@ Feature: Check the Login Functionality
     Then user should directed to <directed>
 
     Examples: 
-      | email                   | password  | directed  |
-      | idrismadyasto@gmail.com | binar1234 | Home Page |
+      | email            | password  | directed  |
+      | idrism@gmail.com | binar1234 | Home Page |
