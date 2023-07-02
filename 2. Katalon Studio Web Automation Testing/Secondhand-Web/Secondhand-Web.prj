@@ -7,10 +7,18 @@
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 <<<<<<< HEAD
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\SpaceBuzz\Desktop\Idris_Git\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
 =======
    <projectFileLocation>D:\Asyifa\latihanGit\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
 >>>>>>> e28bf2c981d43d7948af9fc27efdf13da97df068
+=======
+
+   <projectFileLocation>C:\Users\SpaceBuzz\Desktop\Idris_Git\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
+
+   <projectFileLocation>D:\Asyifa\latihanGit\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
+
+>>>>>>> 4c595d84027f4ff6542f66deea27926dd6600562
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
