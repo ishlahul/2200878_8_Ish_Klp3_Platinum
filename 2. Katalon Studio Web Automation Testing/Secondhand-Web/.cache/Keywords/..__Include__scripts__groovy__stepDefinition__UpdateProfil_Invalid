@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "801974CCC69FFB3DEC073B7A9BE8A534",
+=======
+  "keywordFileContentHash": "255C51CF4F54DD2112C9C61CB4E10068",
+>>>>>>> e28bf2c981d43d7948af9fc27efdf13da97df068
   "keywordClasses": [
     {
       "name": "stepDefinition.UpdateProfil_Invalid",

@@ -10,11 +10,15 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 4.000.000'])[1]/following::label[1]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Tolak' or . = 'Tolak')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>label.btn.btn-outline-primary.rounded-4.px-5</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>fb61c2ca-2bf9-48a9-adac-877501747746</webElementGuid>
+      <webElementGuid>12428736-0f1c-4fda-ab29-ecb578813df8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary rounded-4 px-5</value>
-      <webElementGuid>8c59315d-d359-4ffe-9bec-4b9e48e5e4bf</webElementGuid>
+      <webElementGuid>799e3d0b-bce1-4f34-8ee4-9c3781cb35a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>for</name>
       <type>Main</type>
       <value>offer_status_denied</value>
-      <webElementGuid>f279030f-cbcf-4745-a4f4-537c1c3b66ca</webElementGuid>
+      <webElementGuid>6ba0e6ce-0f1c-49bf-a108-901e5562d751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tolak</value>
-      <webElementGuid>ee1ae33a-0f7b-448f-a097-756631b5a4ca</webElementGuid>
+      <webElementGuid>97158920-1d22-4746-8055-5ceebea6c584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;offers mt-5&quot;]/li[@class=&quot;offer gap-4 mt-5&quot;]/div[@class=&quot;offer-content&quot;]/div[@class=&quot;offer-footer d-flex gap-2 justify-content-end&quot;]/form[@class=&quot;offer-footer d-flex gap-2 justify-content-end&quot;]/label[@class=&quot;btn btn-outline-primary rounded-4 px-5&quot;]</value>
-      <webElementGuid>3ada453e-b8d8-4ece-8903-e4246389d697</webElementGuid>
+      <webElementGuid>07cc673b-597d-4dc9-a028-a74dfd6a87e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ditawar Rp 4.000.000'])[1]/following::label[1]</value>
-      <webElementGuid>af4025aa-f659-4c16-92fd-41e7a039b7af</webElementGuid>
+      <webElementGuid>91b07c48-2137-4451-9007-a3ee771f62b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 5.000.000'])[1]/following::label[1]</value>
-      <webElementGuid>48465ec7-1269-4063-b178-3c7aab689709</webElementGuid>
+      <webElementGuid>d476b659-dd3a-41a4-8622-db06a9b94fb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terima'])[1]/preceding::label[1]</value>
-      <webElementGuid>dfa9ba36-bd3d-471b-b9e6-6b67ef00c55d</webElementGuid>
+      <webElementGuid>e24339d5-2f66-4b8b-848b-09c90bbdb833</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Perbarui status penjualan produkmu'])[1]/preceding::label[2]</value>
-      <webElementGuid>45f56bd6-0bc7-4bce-bee3-69c9df144079</webElementGuid>
+      <webElementGuid>3c8af5d8-54a9-4565-a020-a903465cd14e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tolak']/parent::*</value>
-      <webElementGuid>1a513302-b40f-4aa5-82bf-4cbe6df63b10</webElementGuid>
+      <webElementGuid>249f1bda-d1a1-487c-87a6-d7020cbf0846</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>479727df-cd71-4e1f-b247-6f69b6dc0a71</webElementGuid>
+      <webElementGuid>8c9613a8-3c01-4826-9260-a013eb69c2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Tolak' or . = 'Tolak')]</value>
-      <webElementGuid>22bd8b62-b5d0-42e9-ae22-e34987559aef</webElementGuid>
+      <webElementGuid>c5569acf-82f3-4495-8612-662c3c0f977f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

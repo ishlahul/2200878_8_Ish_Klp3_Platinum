@@ -6,7 +6,11 @@
    <UUID>03efd003-8b58-44c5-971f-fab5fd585fbe</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\SpaceBuzz\Desktop\Idris_Git\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
+=======
+   <projectFileLocation>D:\Asyifa\latihanGit\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
+>>>>>>> e28bf2c981d43d7948af9fc27efdf13da97df068
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

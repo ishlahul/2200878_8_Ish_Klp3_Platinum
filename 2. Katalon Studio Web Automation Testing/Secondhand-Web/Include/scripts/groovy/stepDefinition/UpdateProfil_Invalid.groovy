@@ -100,7 +100,10 @@ class UpdateProfil_Invalid {
 	public void user_will_see_a_warning_please_input_phone_number_with_a_valid_format() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
 		
+<<<<<<< HEAD
 
+=======
+>>>>>>> e28bf2c981d43d7948af9fc27efdf13da97df068
 		// Write code here that turns the phrase above into concrete actions
 
 
