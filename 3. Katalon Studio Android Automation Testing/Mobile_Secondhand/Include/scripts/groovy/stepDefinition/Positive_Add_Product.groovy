@@ -84,12 +84,12 @@ class Positive_Add_Product {
 		Mobile.tap(findTestObject('Page_Add_Product/spn_cat_produk'), 0)
 		Mobile.tap(findTestObject('Page_Add_Product/cat_1tap_kompdanacc'), 0)
 	}
-	
+
 	@And("user input product location (.*)")
 	def inputProductLoc(String product_loc){
 		Mobile.setText(findTestObject('Page_Add_Product/text_lokasi_produk'), product_loc, 0)
 	}
-	
+
 	@And("user input product description (.*)")
 	def inputProductDesc(String product_desc){
 		Mobile.setText(findTestObject('Page_Add_Product/text_desc_produk'), product_desc, 0)
@@ -105,6 +105,10 @@ class Positive_Add_Product {
 	@And("user tap button terbitkan")
 	def clickTerbitkan() {
 		Mobile.tap(findTestObject('Page_Add_Product/btn_terbitkan'), 0)
-		WebUI.callTestCase(findTestCase('Pages/Add_Product/Verify'), [:], FailureHandling.CONTINUE_ON_FAILURE)	
+	}
+
+	@Then("verify for page")
+	def verifyValid() {
+		WebUI.callTestCase(findTestCase('Pages/Add_Product/Verify'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 	}
 }

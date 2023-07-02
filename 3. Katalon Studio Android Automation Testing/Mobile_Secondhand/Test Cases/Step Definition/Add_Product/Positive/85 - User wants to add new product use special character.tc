@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>at product name</description>
+   <name>85 - User wants to add new product use special character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da80c021-fd2d-4a2c-a349-15ff727df561</testCaseGuid>
+</TestCaseEntity>

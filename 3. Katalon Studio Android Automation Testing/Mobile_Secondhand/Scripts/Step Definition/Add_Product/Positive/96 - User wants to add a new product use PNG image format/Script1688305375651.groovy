@@ -19,27 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/Add_Product/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/btn_icon_jual'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap icon add product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Page_Add_Product/text_nama_produk'), product_name, 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Input product name'), [('product_name') : 'hape'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Page_Add_Product/text_harga_produk'), product_price, 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Input product price'), [('product_price') : '1000'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/spn_cat_produk'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Dropdown product category'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/cat_1tap_kompdanacc'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Choose komputer dan aksesoris category'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Page_Add_Product/text_lokasi_produk'), product_loc, 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Input product location'), [('product_loc') : 'rumah'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Page_Add_Product/text_desc_produk'), product_desc, 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Input product description'), [('product_desc') : 'ini barang'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/icon_upload'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap icon upload product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/btn_gallery'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap upload from gallery'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Page_Add_Product/upload_1st_order'), 0)
+Mobile.tap(findTestObject('Page_Add_Product/hp_png'), 0)
 
-Mobile.tap(findTestObject('Page_Add_Product/btn_terbitkan'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap button terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Add_Product/Verify'), [:], FailureHandling.STOP_ON_FAILURE)
 

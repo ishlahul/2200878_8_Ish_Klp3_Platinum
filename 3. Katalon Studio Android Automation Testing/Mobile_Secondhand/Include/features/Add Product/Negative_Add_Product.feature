@@ -16,25 +16,19 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@AddProduct
-Feature: Add Product
-  User wants to add product using correct credential
+@InvalidAddProduct
+Feature: Add Product negative case
+  User wants to add product using incorrect credential
 
-  @91
-  Scenario Outline: Title of your scenario outline
+  @74
+  Scenario Outline: Add product negative case
     Given user go to login page
     When user fill email <email> and password <password>
 		And user tap login button
-    Then user navigated to detail product add page
-    And user input product name <product_name>
-    And user input product price <product_price>
-    And user choose product category
-    And user input product location <product_loc>
-    And user input product description <product_desc>
-    And user upload file
+    And user navigated to detail product add page
     And user tap button terbitkan
-    Then verify for page
+    Then user verify for invalid page <message>
 
     Examples: 
-      | email 							| password 		| product_name	| product_price | product_loc | product_desc |
-      |	i.afif747@gmail.com	| lapokon123	| sepeda 				| 1500 					| rumah				| ini contoh	 | 
+      | email 							| password 		| message							|
+      |	i.afif747@gmail.com	| lapokon123	| kategori is missing	|

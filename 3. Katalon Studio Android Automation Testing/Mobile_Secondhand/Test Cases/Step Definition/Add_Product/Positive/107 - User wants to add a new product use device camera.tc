@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Choose upload file - hp_jpeg</name>
+   <name>107 - User wants to add a new product use device camera</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f55d060b-b350-4b57-bf22-ffe990af2de2</testCaseGuid>
+   <testCaseGuid>dccd2bc3-3cc1-4c3a-a748-12e09d459653</testCaseGuid>
 </TestCaseEntity>

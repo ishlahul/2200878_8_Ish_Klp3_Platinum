@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>use with big size image file</description>
+   <name>95 - User wants to add a new product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76e219e7-0190-4152-96d9-fce27fe61d0d</testCaseGuid>
+</TestCaseEntity>

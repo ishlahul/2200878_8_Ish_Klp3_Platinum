@@ -101,7 +101,6 @@ class AddProductWithCorrectCredential {
 		WebUI.click(findTestObject('Object Repository/Page_Add_Product/label_Terbitkan'))
 		WebUI.callTestCase(findTestCase('Pages/Add Product/Verify Content'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
-		WebUI.callTestCase(findTestCase('Pages/Add Product/Logout/Logout'), [:])	
+		WebUI.callTestCase(findTestCase('Pages/Add Product/Logout/Logout'), [:])
 	}
-
 }

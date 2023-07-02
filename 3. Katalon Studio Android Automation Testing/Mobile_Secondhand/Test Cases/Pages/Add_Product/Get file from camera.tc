@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>57</name>
+   <name>Get file from camera</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f0289303-d781-4f52-8794-011e36200f36</testCaseGuid>
+   <testCaseGuid>b46de501-d8fc-46ad-a7da-34e9415d5abf</testCaseGuid>
 </TestCaseEntity>
