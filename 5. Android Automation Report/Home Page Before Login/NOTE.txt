@@ -1,0 +1,5 @@
+Saat melakukan automation tidak dapat memfilter
+button kategori walaupun sudah direfresh.
+
+proses automation terkendala mulai dari TC 30 
+karena katalon tidak dapat membuka app
