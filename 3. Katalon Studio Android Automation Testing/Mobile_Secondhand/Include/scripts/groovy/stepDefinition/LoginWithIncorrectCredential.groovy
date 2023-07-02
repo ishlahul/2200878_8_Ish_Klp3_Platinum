@@ -95,12 +95,12 @@ class LoginWithIncorrectCredential {
 			Mobile.callTestCase(findTestCase('Pages/Login/Popup Wrong Email or Password'), [:], FailureHandling.STOP_ON_FAILURE)
 		}
 		else if (message == 'Email tidak boleh kosong') {
-			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Email'), [('expected') : 'Email tidak boleh kosong', ('emptyEmail') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
+			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Email'), [('expected') : 'Email tidak boleh kosong', ('emptyEmail') : ''],
+			FailureHandling.STOP_ON_FAILURE)
 		}
 		else if (message == 'Password  tidak boleh kosong') {
-			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
-    FailureHandling.STOP_ON_FAILURE)
+			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'],
+			FailureHandling.STOP_ON_FAILURE)
 		}
 		else if (message == 'Email tidak valid') {
 			Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Invalid Email'), [('expected') : 'Email tidak valid'], FailureHandling.STOP_ON_FAILURE)

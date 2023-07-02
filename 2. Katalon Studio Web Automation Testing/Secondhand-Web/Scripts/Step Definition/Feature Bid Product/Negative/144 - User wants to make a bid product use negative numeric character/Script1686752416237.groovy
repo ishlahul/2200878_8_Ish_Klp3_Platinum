@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Positive/31 - User wants to login with correct credential'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-String intindex = '1'
+String intindex = '3'
 
 println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
 

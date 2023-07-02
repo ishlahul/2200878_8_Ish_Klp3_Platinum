@@ -29,10 +29,10 @@ Feature: Check the Login Functionality
     Then user should see popup <message>
 
     Examples: 
-      | email               | password | message                    |
-      | invalid@example.com | invalid  | Invalid Email or password. |
-      | invalid@example.com | binar123 | Invalid Email or password. |
-      | binar@example.com   | invalid  | Invalid Email or password. |
-      |                     |          | Required Email             |
-      |                     | binar123 | Required Email             |
-      | binar@example.com   |          | Required Password          |
+      | email               | password  | message                    |
+      | invalid@example.com | invalid   | Invalid Email or password. |
+      | invalid@example.com | binar1234 | Invalid Email or password. |
+      | idrism@gmail.com    | invalid   | Invalid Email or password. |
+      |                     |           | Required Email             |
+      |                     | binar1234 | Required Email             |
+      | idrism@gmail.com    |           | Required Password          |
