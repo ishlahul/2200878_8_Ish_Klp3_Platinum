@@ -26,8 +26,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features",
 glue = "stepDefinition",
-tags = "",
-monochrome = true
+tags = "@createaccvalid",
+//monochrome = true
+plugin = ["html:Reports/Cucumber"]
 )
 
 public class Runner {

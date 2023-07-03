@@ -24,10 +24,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features",
 glue = "stepDefinition",
-tags = "",
-monochrome = true//,
-//plugin = "html:Reports/Cucumber"
-)
+tags = "@invalidupdateprofil",
+//monochrome = true
+plugin = ["html:Reports/Cucumber"])
 
 public class Runner {
 }

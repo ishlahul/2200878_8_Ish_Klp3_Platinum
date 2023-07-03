@@ -52,51 +52,60 @@ class CreateAcc_Valid {
 
 	@Given("User is in create account page on secondhand app")
 	public void user_is_in_create_account_page_on_secondhand_app() {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Icon Akun'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Button Masuk Akun Saya'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Tap Daftar Text View'), [:], FailureHandling.STOP_ON_FAILURE)
+		//Mobile.startApplication('Apk/app-release-second-hand-gcp.apk', false)
+		//Mobile.startExistingApplication('id.binar.fp.secondhand')
+		//Mobile.tap(findTestObject('Page_Beranda Before Login/navigationbar_icon_Akun'), 0)
+		Mobile.tap(findTestObject('Page_Regis/icon_Akun'), 30)
+		Mobile.tap(findTestObject('Page_Akun Saya Before Login/button_Masuk'), 30)
+		Mobile.tap(findTestObject('Page_Regis/android.widget.TextView - Daftar'), 30)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
 	@When("user enter nama lengkap with (.*)")
-	public void user_enter_nama_lengkap_with_Johnny(String nama) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nama'), [('nama_user') : nama], FailureHandling.STOP_ON_FAILURE)
+	public void user_enter_nama_lengkap_with(String nama) {
+		Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan nama lengkap'), nama, 30)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nama'), [('nama_user') : nama], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
 	@When("user enter email with (.*)")
 	public void user_enter_email_with_email(String email) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Email'), [:], FailureHandling.STOP_ON_FAILURE)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Email'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Email BDD'), [:], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
 	@When("user enter password with (.*)")
 	public void user_enter_password_with_john(String password) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+		Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan password'), password, 30)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
-	@When("user enter nomor hp with {int}")
-	public void user_enter_nomor_hp_with(Integer nomor) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nomor Hp'), [('nomor_hp') : nomor], FailureHandling.STOP_ON_FAILURE)
+	@When("user enter nomor hp with (.*)")
+	public void user_enter_nomor_hp_with(String nomor) {
+		Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Contoh 08123456789'), nomor, 30)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Nomor Hp'), [('nomor_hp') : nomor], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
 	@When("user enter kota with (.*)")
 	public void user_enter_kota_with_Medan(String kota) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Kota'), [('kota') : kota], FailureHandling.STOP_ON_FAILURE)
+		Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan kota'), kota, 30)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Kota'), [('kota') : kota], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
 
 	@When("user enter alamat with (.*)")
 	public void user_enter_alamat_with_Jl_Bersama(String alamat) {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Alamat'), [('alamat') : alamat], FailureHandling.STOP_ON_FAILURE)
+		Mobile.setText(findTestObject('Page_Regis/android.widget.EditText - Masukkan alamat'), alamat, 30)
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Input Alamat'), [('alamat') : alamat], FailureHandling.STOP_ON_FAILURE)
 		// Write code here that turns the phrase above into concrete actions
 
 	}
@@ -111,8 +120,10 @@ class CreateAcc_Valid {
 
 	@Then("user will see profile page on secondhand app")
 	public void user_will_see_profile_page_on_secondhand_app() {
-		Mobile.callTestCase(findTestCase('Pages/Create Akun/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.closeApplication()
+		//Mobile.callTestCase(findTestCase('Pages/Create Akun/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.tap(findTestObject('Page_Regis/android.widget.ILogout'), 30)
+		Mobile.waitForElementPresent(findTestObject('Page_Regis/icon_Akun'), 30)
+		//Mobile.closeApplication()
 		// Write code here that turns the phrase above into concrete actions
 
 	}

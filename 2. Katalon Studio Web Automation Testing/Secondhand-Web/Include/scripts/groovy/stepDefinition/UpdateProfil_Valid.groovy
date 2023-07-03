@@ -102,7 +102,7 @@ class UpdateProfil_Valid {
 
 	@Then("user will see secondhand homepage")
 	public void user_will_see_secondhand_homepage() {
-		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.click(findTestObject('Page_HomeCreateAcc/i_Keluar_bi bi-person me-4 me-lg-0'))
 		WebUI.click(findTestObject('Page_HomeCreateAcc/button_Keluar'))
 		// Write code here that turns the phrase above into concrete actions

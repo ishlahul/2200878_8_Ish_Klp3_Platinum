@@ -16,5 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import Runner_Negative_CreateAcc as Runner_Negative_CreateAcc
+//import Runner_Negative_CreateAcc as Runner_Negative_CreateAcc
+
+//CucumberKW.runFeatureFile('Include/features/User_CreateAcc_Negative_Invalid_Create_Acc.feature')
+
+CucumberKW.runWithCucumberRunner(Runner.class)
 

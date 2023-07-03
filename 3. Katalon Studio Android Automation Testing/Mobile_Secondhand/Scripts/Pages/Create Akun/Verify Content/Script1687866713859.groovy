@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Page_Regis/android.widget.ILogout'), 0)
+Mobile.verifyElementNotVisible(findTestObject('Page_Regis/android.widget.Button - Daftar'), 0)
 

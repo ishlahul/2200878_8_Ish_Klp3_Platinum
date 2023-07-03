@@ -52,6 +52,7 @@ class invalid_create_acc {
 
 	@Given("user opens secondhand homepage")
 	public void user_opens_secondhand_homepage() {
+		WebUI.openBrowser('https://secondhand.binaracademy.org/')
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Disini'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
@@ -83,5 +84,7 @@ class invalid_create_acc {
 	public void user_will_see_a_message(String message) {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Verify Content Failed'), [:], FailureHandling.STOP_ON_FAILURE)
 		println message
+		
+		WebUI.closeBrowser()
 	}
 }

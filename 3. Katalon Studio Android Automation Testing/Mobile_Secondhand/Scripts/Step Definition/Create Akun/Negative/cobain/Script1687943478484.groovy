@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('Apk/app-release-second-hand-gcp.apk', false)
+
+WebUI.callTestCase(findTestCase('Pages/Create Akun/Input Email BDD'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Page_Regis/icon_Akun'), 60)
+
