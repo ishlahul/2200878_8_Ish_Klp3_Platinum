@@ -17,9 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToPosition(0, 400)
-
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Button Elektronik Category'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyLinksAccessible(['https://secondhand.binaracademy.org/?category_id=4'])
+WebUI.click(findTestObject('Page_Home After Login/list_product'))
 
