@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Daftar_Transaksi/a_Diminati'))
+WebUI.callTestCase(findTestCase('Step Definition/Feature Update Purchase Status/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Company Logo'), [:], FailureHandling.STOP_ON_FAILURE)
 

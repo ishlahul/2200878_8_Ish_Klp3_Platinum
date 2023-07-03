@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page Search/input_Produk'), 'laptop')
+WebUI.setText(findTestObject('Page_Search/input_Produk'), 'laptop')
 
