@@ -20,7 +20,7 @@ Test Cases/Add_product.tc
 .classpath/*
 .settings/*
 .project/*
-.chace/*
+.cache/*
 *.gradle
 *.log
 

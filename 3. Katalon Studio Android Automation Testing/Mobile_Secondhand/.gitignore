@@ -18,7 +18,7 @@ build
 .classpath/*
 .settings/*
 .project/*
-.chace/*
+.cache/*
 *.gradle
 *.log
 .classpath/
@@ -27,3 +27,4 @@ build
 .chace/
 
 Runner.grooovy
+appium.log
