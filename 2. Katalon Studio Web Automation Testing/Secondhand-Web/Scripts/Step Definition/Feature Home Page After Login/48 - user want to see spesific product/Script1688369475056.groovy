@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToPosition(0, 400)
+String intindex = '1'
 
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Click Button Elektronik Category'), [:], FailureHandling.STOP_ON_FAILURE)
+println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
 
-WebUI.verifyLinksAccessible(['https://secondhand.binaracademy.org/?category_id=4'])
+def xpath = ('//div[@id=products]/div[' + intindex) + ']'
+
+WebUI.click(findTestObject('Object Repository/Page_Home Before Login/index_product', [('index') : intindex]))
+
+WebUI.callTestCase(findTestCase('Pages/Bid Product/Verify Product Before Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
