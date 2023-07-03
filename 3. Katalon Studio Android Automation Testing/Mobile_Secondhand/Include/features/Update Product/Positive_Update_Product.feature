@@ -16,25 +16,26 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@AddProduct
-Feature: Add Product
-  User wants to add product using correct credential
+@Update_Product
+Feature: Update Product
+  User wants to update product with correct credential
 
-  @71
-  Scenario Outline: Add Product
+  @108
+  Scenario Outline: Update Product
     Given user go to login page
     When user fill email <email> and password <password>
 		And user tap login button
-    Then user navigated to detail product add page
+    Then user tap sale list
+    When user tap listed product 
     And user input product name <product_name>
     And user input product price <product_price>
     And user choose product category
     And user input product location <product_loc>
     And user input product description <product_desc>
     And user upload file
-    And user tap button terbitkan
-    Then verify for page
+    And user tap perbarui button
+    Then verify update page
 
     Examples: 
-      | email 							| password 		| product_name	| product_price | product_loc | product_desc |
-      |	i.afif747@gmail.com	| lapokon123	| hape	 				| 1500 					| rumah				| ini barang	 | 
+			| email 							| password 		| product_name	| product_price | product_loc | product_desc |
+      |	i.afif747@gmail.com	| lapokon123	| hape baru			| 2500 					| rumah	baru	| ini baru		 | 
