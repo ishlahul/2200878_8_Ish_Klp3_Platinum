@@ -99,7 +99,7 @@ class Positive_Add_Product {
 	def uploadFile(){
 		Mobile.tap(findTestObject('Page_Add_Product/icon_upload'), 0)
 		Mobile.tap(findTestObject('Page_Add_Product/btn_gallery'), 0)
-		Mobile.tap(findTestObject('Page_Add_Product/upload_1st_order'), 0)
+		Mobile.tap(findTestObject('Page_Update_Product/hp-jpeg'), 0)
 	}
 
 	@And("user tap button terbitkan")

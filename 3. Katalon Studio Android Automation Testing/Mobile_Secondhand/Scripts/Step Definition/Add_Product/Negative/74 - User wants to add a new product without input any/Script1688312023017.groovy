@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Update_Product/hp-jpeg'), 0)
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap icon add product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Add_Product/Tap button terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Page_Add_Product/message - kategori is missing'), 0)
 

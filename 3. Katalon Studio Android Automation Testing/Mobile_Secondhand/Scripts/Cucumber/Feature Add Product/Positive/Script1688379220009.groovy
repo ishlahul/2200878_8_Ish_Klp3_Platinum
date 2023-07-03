@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Update_Product/hp-jpeg'), 0)
+CucumberKW.runFeatureFile('Include/features/Add Product/Positive_Add_Product.feature')
 
