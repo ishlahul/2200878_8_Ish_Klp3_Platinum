@@ -26,7 +26,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features",
 glue = "stepDefinition",
-tags = "@createaccvalid",
+tags = "",
 //monochrome = true
 plugin = ["html:Reports/Cucumber"]
 )

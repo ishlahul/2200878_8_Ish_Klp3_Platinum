@@ -23,3 +23,5 @@ Test Cases/Add_product.tc
 .chace/*
 *.gradle
 *.log
+
+Runner.groovy
