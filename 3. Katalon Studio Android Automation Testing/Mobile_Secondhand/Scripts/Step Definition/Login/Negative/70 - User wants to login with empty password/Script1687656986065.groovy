@@ -27,6 +27,6 @@ Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
+Mobile.callTestCase(findTestCase('Pages/Login/Suggest Message Empty Password'), [('expected') : 'Password tidak boleh kosong'], 
     FailureHandling.STOP_ON_FAILURE)
 

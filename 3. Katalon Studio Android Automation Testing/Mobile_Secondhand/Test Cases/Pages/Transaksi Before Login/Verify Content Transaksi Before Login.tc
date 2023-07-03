@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Content Transaksi Before Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1aa3f78-6138-4529-a715-701027c4306e</testCaseGuid>
+</TestCaseEntity>

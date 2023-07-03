@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>update product using alphabet character</description>
+   <name>94 - User wants to update a product price use numeric character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4aeb2e4-e804-4c55-9019-be6a89e8d42a</testCaseGuid>
+</TestCaseEntity>

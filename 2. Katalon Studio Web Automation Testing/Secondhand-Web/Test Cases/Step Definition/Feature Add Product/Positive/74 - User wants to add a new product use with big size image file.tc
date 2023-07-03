@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>note: failed: error 413 Request Entity Too Large</description>
+   <name>74 - User wants to add a new product use with big size image file</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5f5dace-9258-4c9a-8d76-d47145106e70</testCaseGuid>
+</TestCaseEntity>

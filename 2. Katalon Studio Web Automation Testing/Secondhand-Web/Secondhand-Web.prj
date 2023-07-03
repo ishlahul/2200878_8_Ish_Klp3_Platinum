@@ -6,6 +6,7 @@
    <UUID>03efd003-8b58-44c5-971f-fab5fd585fbe</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<!-- projectFileLocation sesuaikan path di laptop masing2 -->
    <projectFileLocation>/Users/rezafarandi/BinarKelompok3/2. Katalon Studio Web Automation Testing/Secondhand-Web/Secondhand-Web.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>

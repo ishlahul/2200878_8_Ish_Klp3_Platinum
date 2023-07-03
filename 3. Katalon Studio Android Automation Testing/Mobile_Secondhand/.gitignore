@@ -24,7 +24,8 @@ build
 .classpath/
 .settings/
 .project/
-.chace/
+.cache/
 
-Runner.grooovy
-appium.log
+/Runner.groovy
+/appium.log
+/Mobile_Secondhand.prj

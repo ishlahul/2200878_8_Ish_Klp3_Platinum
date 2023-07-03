@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B178A1D5741D0F9929DD25FE23F800D4",
+  "keywordFileContentHash": "B9C0EE70B381901BFC5A2031010C6BC2",
   "keywordClasses": [
     {
       "name": "custom.randomEmail",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+          "javadoc": "/**\r\n\t * Check if element present in timeout\r\n\t * @param to Katalon test object\r\n\t * @param timeout time to wait for element to show up\r\n\t * @return true if element present, otherwise false\r\n\t */"
         }
       ]
     }

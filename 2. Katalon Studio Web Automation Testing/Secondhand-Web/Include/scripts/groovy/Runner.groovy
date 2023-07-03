@@ -22,11 +22,12 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features",
+features = "Include/features/Bid Product/Negative",
 glue = "stepDefinition",
-tags = "@invalidupdateprofil",
-//monochrome = true
-plugin = ["html:Reports/Cucumber"])
+tags = "",
+monochrome = true,
+plugin = "html:Reports/Cucumber"
+)
 
 public class Runner {
 }
