@@ -8,6 +8,7 @@
    <pageLoadTimeout>0</pageLoadTimeout>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\SpaceBuzz\Desktop\Idris_Git\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
 =======
    <projectFileLocation>D:\Asyifa\latihanGit\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
@@ -19,6 +20,10 @@
    <projectFileLocation>D:\Asyifa\latihanGit\BinarKelompok3\2. Katalon Studio Web Automation Testing\Secondhand-Web\Secondhand-Web.prj</projectFileLocation>
 
 >>>>>>> 4c595d84027f4ff6542f66deea27926dd6600562
+=======
+<!-- projectFileLocation sesuaikan path di laptop masing2 -->
+   <projectFileLocation>/Users/rezafarandi/BinarKelompok3/2. Katalon Studio Web Automation Testing/Secondhand-Web/Secondhand-Web.prj</projectFileLocation>
+>>>>>>> 4bb495359c3a5f9acb76d7d4f73d0e9633ef8693
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

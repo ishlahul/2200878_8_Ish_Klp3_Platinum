@@ -21,9 +21,9 @@ Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Icon Akun'), [:], Fail
 
 Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Button Masuk Akun Saya'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Email'), [('email') : 'jeno111@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Email'), [('email') : 'nakamoto@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'jeno1234'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Login/Input Password'), [('password') : 'yuta1234'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Login/Tap Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,11 +31,11 @@ Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Icon Edit'), [:], Fail
 
 Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Pass Lama'), [('pass_lama') : 'jeno1234'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Pass Lama'), [('pass_lama') : 'yuta1234'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Pass Baru'), [('pass_baru') : 'jeno23'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Pass Baru'), [('pass_baru') : 'yuta26'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Konfirm Pass'), [('pass_konfirm') : 'jeno23'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Update Profil/Input Konfirm Pass'), [('pass_konfirm') : 'yuta26'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Button Simpan'), [:], FailureHandling.STOP_ON_FAILURE)
 

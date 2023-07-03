@@ -4,51 +4,21 @@
    <name>div_nav_user</name>
    <tag></tag>
    <elementGuidId>9340e534-9296-49d0-9a8c-317582734fc9</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.d-flex.align-items-center.justify-content.center.flex-column.py-2</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div</value>
       </entry>
       <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.align-items-center.justify-content.center.flex-column.py-2</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;][count(. | //*[(text() = '
-              
-
-            
-              karinaa
-              Jogja
-            
-          ' or . = '
-              
-
-            
-              karinaa
-              Jogja
-            
-          ')]) = count(//*[(text() = '
-              
-
-            
-              karinaa
-              Jogja
-            
-          ' or . = '
-              
-
-            
-              karinaa
-              Jogja
-            
-          ')])]</value>
+         <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dd13eb32-eca6-40de-bf7e-4868620266b2</webElementGuid>
+      <webElementGuid>7bfc76eb-f030-4d02-9206-53358f2b4383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,10 +37,10 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center justify-content center flex-column py-2</value>
-      <webElementGuid>86ea963a-2ca3-4d59-819e-2cfc975afe2b</webElementGuid>
+      <webElementGuid>ba1fb5ed-31a3-43cd-b462-2ed10299054e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -82,7 +52,7 @@
               Jogja
             
           </value>
-      <webElementGuid>e90b6168-ccd2-49a2-9125-eb6fd61300c8</webElementGuid>
+      <webElementGuid>74c4a8d9-9b7d-4d55-ade7-d2e18422b1c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]</value>
-      <webElementGuid>f4cfdd05-df65-435b-a6c0-e38aa99d8902</webElementGuid>
+      <webElementGuid>8a524f98-8bde-46a4-a80f-25c09db2ee6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div</value>
-      <webElementGuid>f5762d1f-e622-48f1-86b7-a8ec040e3ead</webElementGuid>
+      <webElementGuid>27de7040-1b84-4b4a-90e2-b88dc364f6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[2]/following::div[1]</value>
-      <webElementGuid>2acb2151-6929-4b03-927e-723612678a71</webElementGuid>
+      <webElementGuid>f10afc5d-3022-4199-8eeb-bef55d2659d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[1]</value>
-      <webElementGuid>00e00840-0c6d-437b-a25d-6cd51cdab17c</webElementGuid>
+      <webElementGuid>a736b19b-712e-4178-85e9-5619782aea1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
-      <webElementGuid>fc1afc19-9f1e-42d9-8383-cee240cc63a6</webElementGuid>
+      <webElementGuid>07ea24bd-0234-4b39-abb5-bf034d3faeb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,6 +114,6 @@
               Jogja
             
           ')]</value>
-      <webElementGuid>6a9c99dc-9587-4e84-974e-545b3f2f9c67</webElementGuid>
+      <webElementGuid>a7c78615-17bb-43a9-be24-59df0c857e6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

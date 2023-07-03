@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Pages/Create Acc/Homepage'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Disini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : 'karina'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_HomeCreateAcc/input_Email_useremail'), '@yopmail.comkarina')
 
-WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), ['user_password' : 'aespa1234'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Button'), [:], FailureHandling.STOP_ON_FAILURE)
 

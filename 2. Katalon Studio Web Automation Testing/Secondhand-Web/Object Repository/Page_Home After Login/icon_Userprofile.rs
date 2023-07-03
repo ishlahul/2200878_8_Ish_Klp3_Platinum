@@ -6,15 +6,19 @@
    <elementGuidId>ca79a081-e4b6-4622-9a0d-ff81825469a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/a/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.nav-link.dropdown-toggle.d-flex.align-items-center > i.bi.bi-person.me-4.me-lg-0</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/a/i</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>0e736609-a995-44cf-a074-d3a62496c068</webElementGuid>
+      <webElementGuid>0a6ce900-6b96-4d5e-8291-86b387a55b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bi bi-person me-4 me-lg-0</value>
-      <webElementGuid>e7d5a788-bad8-4d32-9f10-c49588ac832a</webElementGuid>
+      <webElementGuid>004e8c9c-d02b-4e2f-8a69-d66324ce4105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/a[@class=&quot;nav-link dropdown-toggle d-flex align-items-center&quot;]/i[@class=&quot;bi bi-person me-4 me-lg-0&quot;]</value>
-      <webElementGuid>1d66a6fe-37af-4982-b040-26790ece5874</webElementGuid>
+      <webElementGuid>2139929f-b1a9-4a49-8b6d-b5614419b9c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/a/i</value>
-      <webElementGuid>1c86291a-f519-472c-9a23-bf220eadea80</webElementGuid>
+      <webElementGuid>9685ea64-8d66-49c3-84da-90886a86e039</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/i</value>
-      <webElementGuid>e6467f24-264b-4f92-9a30-755c8f48fd74</webElementGuid>
+      <webElementGuid>39d64dde-5eb6-450e-aee7-da84ad4ae3df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

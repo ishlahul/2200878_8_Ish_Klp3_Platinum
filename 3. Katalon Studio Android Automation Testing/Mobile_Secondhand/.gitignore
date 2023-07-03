@@ -18,10 +18,14 @@ build
 .classpath/*
 .settings/*
 .project/*
-.chace/*
+.cache/*
 *.gradle
 *.log
 .classpath/
 .settings/
 .project/
-.chace/
+.cache/
+
+/Runner.groovy
+/appium.log
+/Mobile_Secondhand.prj

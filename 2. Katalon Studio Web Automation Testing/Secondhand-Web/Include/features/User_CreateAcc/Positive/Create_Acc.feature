@@ -25,16 +25,16 @@ Feature: Create New Account
   Scenario Outline: User want to register with correct credential
     Given user is in secondhand homepage
     
-    When user input nama "nama"
-    And user input email "email"
-    And user input password "<password>"
+    When user input nama <nama>
+    And user input email email
+    And user input password <password>
     And user click button daftar
     Then user see profile button
     
  
  Examples:
- | password |
- | dahlia12 |
- | lesserafim22 |
- | bbaddies2baddies1porscheluvyou |
- | mawar123 |
+ | nama | password |
+ | karina | dahlia12 |
+ | karina	| lesserafim22 |
+ | karina	| bbaddies2baddies1porscheluvyou |
+ | karina | mawar123 |

@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runWithCucumberRunner(Runner_Positive_CreateAcc.class)
+//CucumberKW.runFeatureFile('Include/features/User_CreateAcc/Positive/Create_Acc.feature')
 
+CucumberKW.runWithCucumberRunner(Runner.class)
 

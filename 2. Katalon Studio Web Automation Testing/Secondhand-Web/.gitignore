@@ -15,11 +15,17 @@ build
 
 .project
 
-Test Cases/Add_product.tc
-
 .classpath/*
 .settings/*
 .project/*
-.chace/*
+.cache/*
 *.gradle
 *.log
+.classpath/
+.settings/
+.project/
+.chace/
+
+/Runner.groovy
+/appium.log
+/Secondhand-Web.prj

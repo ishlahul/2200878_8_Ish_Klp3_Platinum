@@ -6,7 +6,9 @@
    <UUID>92cd0e59-eb20-4c5e-9341-bba7642f956e</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\SpaceBuzz\Desktop\Idris_Git\BinarKelompok3\3. Katalon Studio Android Automation Testing\Mobile_Secondhand\Mobile_Secondhand.prj</projectFileLocation>
+<!-- projectFileLocation disesuaikan path di masing2 laptop -->
+   <projectFileLocation>/Users/rezafarandi/BinarKelompok3/3. Katalon Studio Android Automation Testing/Mobile_Secondhand/Mobile_Secondhand.prj</projectFileLocation>
+   
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

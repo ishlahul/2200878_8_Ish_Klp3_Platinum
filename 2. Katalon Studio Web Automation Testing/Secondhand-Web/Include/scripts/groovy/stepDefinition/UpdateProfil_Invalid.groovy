@@ -99,6 +99,7 @@ class UpdateProfil_Invalid {
 	@Then("user will see a warning please input phone number with a valid format")
 	public void user_will_see_a_warning_please_input_phone_number_with_a_valid_format() {
 		WebUI.callTestCase(findTestCase('Pages/Update Profil/verify content negative'), [:], FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
 		
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,5 +115,7 @@ class UpdateProfil_Invalid {
 
 
 
+=======
+>>>>>>> 4bb495359c3a5f9acb76d7d4f73d0e9633ef8693
 	}
 }
