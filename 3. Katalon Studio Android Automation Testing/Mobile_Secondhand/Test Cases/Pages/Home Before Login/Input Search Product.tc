@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Search Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af61392b-88f1-48b9-9e9a-2179c57d43ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f36dd7f2-bfba-46c1-86e2-36fe31bff4ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f36dd7f2-bfba-46c1-86e2-36fe31bff4ad</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>
