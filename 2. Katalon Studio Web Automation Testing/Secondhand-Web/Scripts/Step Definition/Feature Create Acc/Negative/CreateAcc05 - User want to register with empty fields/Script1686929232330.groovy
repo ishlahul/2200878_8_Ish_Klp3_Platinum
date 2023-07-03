@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Pages/Create Acc/Homepage'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Disini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('user_name') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email Negative'), ['user_email' : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email Negative'), [('user_email') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), ['user_password' : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Password'), [('user_password') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Button'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,14 +1,10 @@
 {
-
-  "keywordFileContentHash": "0AC9A7AFF845F85E3C36A470A8F4F7AF",
-
-  "keywordFileContentHash": "324282750224C9E211AE46E0BAFEA394",
-
+  "keywordFileContentHash": "24F2C54142B9C841C21D5D317A94C5C9",
   "keywordClasses": [
     {
       "name": "stepDefinition.create_acc",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

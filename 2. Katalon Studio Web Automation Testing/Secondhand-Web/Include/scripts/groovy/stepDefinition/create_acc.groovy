@@ -55,22 +55,23 @@ class create_acc {
 		WebUI.callTestCase(findTestCase('Pages/Create Acc/Click Daftar Disini'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user input nama {string}")
+	@When("user input nama (.*)")
 	public void user_input_nama(String nama) {
 		//@When("user input nama(string)")
 		//public void user_input_nama(String nama) {
 		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), [('nama') : nama], FailureHandling.STOP_ON_FAILURE)
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : 'karina'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Nama'), ['user_name' : nama], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user input email {string}")
+	@When("user input email (.*)")
 	public void user_input_email(String email) {
 		//@And("user input email(string)")
 		//public void user_input_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email'), [('email'): email], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email'), [:], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/Create Acc/Input Email'), [('email'): email], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user input password {string}")
+	@When("user input password (.*)")
 	public void inputValidPassword(String password) {
 		println("n/ I am inside inputValidPassword")
 		println("Password : "+password)

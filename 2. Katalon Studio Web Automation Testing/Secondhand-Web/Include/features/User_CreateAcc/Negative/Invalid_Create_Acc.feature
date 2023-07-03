@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@InvalidCreateAcc
+@invalidcreateacc
 Feature: Create New Account
   User want to register with invalid credentials
 

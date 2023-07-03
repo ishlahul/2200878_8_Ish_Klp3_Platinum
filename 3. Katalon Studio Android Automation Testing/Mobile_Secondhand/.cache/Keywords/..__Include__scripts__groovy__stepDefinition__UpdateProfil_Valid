@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E6B844E175311FD6C003A49724C6A286",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.UpdateProfil_Valid",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

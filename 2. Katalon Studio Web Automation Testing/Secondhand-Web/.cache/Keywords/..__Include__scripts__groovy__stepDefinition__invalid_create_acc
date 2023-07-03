@@ -1,18 +1,10 @@
 {
-<<<<<<< HEAD
   "keywordFileContentHash": "65F506EDB526158701A0DDF7E19872ED",
-=======
-  "keywordFileContentHash": "D5D6F3CF8901E1D32C504565A79A21CA",
->>>>>>> 3fcd9448fa02712a89b2051eb214458a287dc872
   "keywordClasses": [
     {
       "name": "stepDefinition.invalid_create_acc",
       "keywordMethods": []
     }
   ],
-<<<<<<< HEAD
-  "javadocParsed": true
-=======
   "javadocParsed": false
->>>>>>> 3fcd9448fa02712a89b2051eb214458a287dc872
 }

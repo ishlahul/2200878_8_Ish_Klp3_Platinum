@@ -27,8 +27,8 @@ import cucumber.api.junit.Cucumber;
 features = "Include/features/Bid Product/Negative",
 glue = "stepDefinition",
 tags = "",
-monochrome = true,
-plugin = "html:Reports/Cucumber"
+//monochrome = true
+plugin = ["html:Reports/Cucumber"]
 )
 
 public class Runner {

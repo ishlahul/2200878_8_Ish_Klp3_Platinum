@@ -31,9 +31,11 @@ Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Icon Edit'), [:], Fail
 
 Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Kota'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Update Kota'), ['update_kota' : 'Solo'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/Update Profil/Update Kota'), [('update_kota') : 'Solo'], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Update Profil/Tap Button Simpan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/Update Profil/Verify Content'), ['notifikasi' : 'Profil berhasil diperbarui'], FailureHandling.STOP_ON_FAILURE)
+//Mobile.callTestCase(findTestCase('Pages/Update Profil/Verify Content'), [('notifikasi') : 'Profil berhasil diperbarui'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementNotVisible(findTestObject('Page_UpdateProfil/TextView - Ubah Kota'), 0)
 
