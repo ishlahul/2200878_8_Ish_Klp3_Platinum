@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.verifyElementVisible(findTestObject('Page_Add_Product/message - add_success'), 0)
+
 Mobile.verifyElementVisible(findTestObject('Page_Add_Product/list_select_product_image'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Page_Add_Product/list_icon_delete'), 0)
