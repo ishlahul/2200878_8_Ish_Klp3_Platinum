@@ -42,11 +42,6 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-Given user is in homepage
-When user enter string "laptop"
-And user click enter
-Then user should see the product containing "laptop" in their titles
-
 class SearchProduct {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
