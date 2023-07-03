@@ -50,7 +50,7 @@ class BidAProductUseCorrectCredential {
 	@Given ("user login app Second Hand")
 	def loginApp() {
 		println("/n I am Inside loginApp")
-		
+
 		Mobile.startExistingApplication('id.binar.fp.secondhand')
 		Mobile.callTestCase(findTestCase('Step Definition/Login/Positive/64 - User wants to login with correct credential'), [:],
 		FailureHandling.STOP_ON_FAILURE)

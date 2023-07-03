@@ -17,9 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.swipe(1000, 779, 0, 779)
 
 Mobile.swipe(600, 779, 0, 779)
 
 WebUI.callTestCase(findTestCase('Pages/Home Before Login/Tap Button Hobi dan Koleksi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(250, 700, 250, 2000)
+
+Mobile.delay(40, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Home Before Login/Tap Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Page_Product/Category/text_Hobi dan Koleksi'), FailureHandling.STOP_ON_FAILURE)
 

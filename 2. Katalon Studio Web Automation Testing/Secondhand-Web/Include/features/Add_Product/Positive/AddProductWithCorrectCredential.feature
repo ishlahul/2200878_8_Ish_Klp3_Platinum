@@ -32,7 +32,6 @@ Feature: Add Product
     And user input product description <product_desc>
     And user upload file <upload_file>
     And user click button terbitkan
-    Then user directed to product page
 
     Examples: 
       | email 						| password 	| product_name	| product_price | product_cat | product_desc | upload_file	|
@@ -44,7 +43,7 @@ Feature: Add Product
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| 1234567890	 | sepeda.jpg		|
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| $@&$$$$$$$	 | sepeda.jpg		|
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| ini contoh	 | sepeda.jpg		|
-      |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| ini contoh	 | motor.png		|
+      |	i.afif@gmail.com	| 123				| motor 				| 1500 					| 2						| ini contoh	 | motor.png		|
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| ini contoh	 | skuter.png		|
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| ini contoh	 | sepeda.jpg		|
       |	i.afif@gmail.com	| 123				| sepeda 				| 1500 					| 2						| ini contoh	 | sepeda.jpeg	|

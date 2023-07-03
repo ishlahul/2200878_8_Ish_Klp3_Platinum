@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.swipe(1000, 779, 0, 779)
+WebUI.click(findTestObject('Page_Add_Product/logout/Icon_profil_saya'))
 
-Mobile.swipe(1000, 779, 0, 779)
-
-Mobile.swipe(600, 779, 0, 779)
-
-WebUI.callTestCase(findTestCase('Pages/Home Before Login/Tap Button Pakaian Wanita'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Add_Product/logout/btn_Keluar'))
 
