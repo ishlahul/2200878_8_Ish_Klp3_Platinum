@@ -24,7 +24,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/Bid Product/Negative",
+features = "Include/features/Search",
 glue = "stepDefinition",
 tags = "",
 //monochrome = true
